@@ -1,0 +1,10 @@
+{
+    "type": "the_end",
+    "generator": {
+        "type": "flat",
+        "settings": {
+            "layers": [],
+            "structure_overrides": []
+        }
+    }
+}

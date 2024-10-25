@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:smithing_transform",
+	"base": "minecraft:chainmail_helmet",
+	"addition": "minecraft:iron_ingot",
+	"result": {
+		"id": "minecraft:iron_helmet",
+		"count": 1
+	}
+}

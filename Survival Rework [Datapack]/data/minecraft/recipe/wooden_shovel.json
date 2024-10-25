@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "SX",
+    " #"
+  ],
+  "key": {
+    "#": "minecraft:stick",
+    "X": "minecraft:flint",
+    "S": "minecraft:string"
+  },
+  "result": {
+    "id": "minecraft:wooden_shovel",
+    "count": 1
+  }
+}

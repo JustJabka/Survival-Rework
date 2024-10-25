@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:poisonous_potato",
+            "components": {
+                "minecraft:item_model": "justjabka:ice_cube"
+            }
+        },
+        "title": {
+            "translate": "advancements.survival_rework_jj.eat_ice_cube.title",
+            "fallback": "Ice Ice Baby"
+        },
+        "description": {
+            "translate": "advancements.survival_rework_jj.eat_ice_cube.description",
+            "fallback": "Eat an Ice Cube"
+        }
+    },
+    "parent": "survival_rework_jj:a/craft_flask",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "minecraft:custom_data": {
+                            "survival_rework_jj.ice_cube": true
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

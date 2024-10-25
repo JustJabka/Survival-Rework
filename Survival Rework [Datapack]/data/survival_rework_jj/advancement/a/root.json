@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:campfire"
+        },
+        "title": {
+            "translate": "advancements.survival_rework_jj.root.title",
+            "fallback": "Survival Rework"
+        },
+        "description": {
+            "translate": "advancements.survival_rework_jj.root.description",
+            "fallback": "I think this survival will be harder..."
+        },
+        "background": "justjabka:textures/gui/advancements/backgrounds/survival_rework_jj.png",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "rewards": {
+        "function": "survival_rework_jj:set_scores",
+        "recipes": [
+            "minecraft:wooden_axe",
+            "minecraft:wooden_hoe",
+            "minecraft:wooden_pickaxe",
+            "minecraft:wooden_shovel",
+            "minecraft:wooden_sword"
+        ]
+    }
+}

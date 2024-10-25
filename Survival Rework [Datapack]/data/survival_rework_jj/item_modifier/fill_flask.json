@@ -1,0 +1,84 @@
+[
+    {
+        "function": "minecraft:set_damage",
+        "damage": 3.0,
+        "add": true
+    },
+    {
+        "function": "minecraft:set_components",
+        "components": {
+            "minecraft:item_model": "justjabka:flask",
+            "minecraft:food": {
+                "nutrition": 0,
+                "saturation": 0,
+                "can_always_eat": true
+            },
+            "minecraft:consumable": {
+                "animation": "drink",
+                "has_consume_particles": false,
+                "sound": "minecraft:entity.generic.drink"
+            },
+            "minecraft:use_remainder": {
+                "id": "minecraft:poisonous_potato",
+                "components": {
+                    "minecraft:item_model": "justjabka:flask",
+                    "minecraft:max_damage": 3,
+                    "minecraft:damage": 1,
+                    "minecraft:max_stack_size": 1,
+                    "minecraft:food": {
+                        "nutrition": 0,
+                        "saturation": 0,
+                        "can_always_eat": true
+                    },
+                    "minecraft:consumable": {
+                        "animation": "drink",
+                        "has_consume_particles": false,
+                        "sound": "minecraft:entity.generic.drink"
+                    },
+                    "minecraft:item_name": "{\"translate\":\"item.survival_rework_jj.flask\",\"fallback\":\"Flask\"}",
+                    "minecraft:custom_data": {
+                        "survival_rework_jj.flask": true
+                    },
+                    "use_remainder": {
+                        "id": "minecraft:poisonous_potato",
+                        "components": {
+                            "minecraft:item_model": "justjabka:flask",
+                            "minecraft:max_damage": 3,
+                            "minecraft:damage": 2,
+                            "minecraft:max_stack_size": 1,
+                            "minecraft:food": {
+                                "nutrition": 0,
+                                "saturation": 0,
+                                "can_always_eat": true
+                            },
+                            "minecraft:consumable": {
+                                "animation": "drink",
+                                "has_consume_particles": false,
+                                "sound": "minecraft:entity.generic.drink"
+                            },
+                            "minecraft:item_name": "{\"translate\":\"item.survival_rework_jj.flask\",\"fallback\":\"Flask\"}",
+                            "minecraft:custom_data": {
+                                "survival_rework_jj.flask": true
+                            },
+                            "use_remainder": {
+                                "id": "minecraft:poisonous_potato",
+                                "components": {
+                                    "minecraft:item_model": "justjabka:empty_flask",
+                                    "minecraft:max_damage": 3,
+                                    "minecraft:damage": 3,
+                                    "minecraft:max_stack_size": 1,
+                                    "!minecraft:food": {},
+                                    "!minecraft:consumable": {},
+                                    "minecraft:item_name": "{\"translate\":\"item.survival_rework_jj.flask\",\"fallback\":\"Flask\"}",
+                                    "minecraft:custom_data": {
+                                        "survival_rework_jj.flask": true
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+]

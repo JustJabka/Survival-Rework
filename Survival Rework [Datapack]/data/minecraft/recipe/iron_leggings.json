@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:smithing_transform",
+	"base": "minecraft:chainmail_leggings",
+	"addition": "minecraft:iron_ingot",
+	"result": {
+		"id": "minecraft:iron_leggings",
+		"count": 1
+	}
+}

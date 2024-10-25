@@ -1,0 +1,39 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:potion",
+            "components": {
+                "minecraft:potion_contents": {
+                    "potion": "minecraft:water"
+                } 
+            }
+        },
+        "title": {
+            "translate": "advancements.survival_rework_jj.drink_water_bottle.title",
+            "fallback": "Stay Hydrated"
+        },
+        "description": {
+            "translate": "advancements.survival_rework_jj.drink_water_bottle.description",
+            "fallback": "Drink a bottle of water"
+        }
+    },
+    "parent": "survival_rework_jj:a/root",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:potion",
+                    "predicates": {
+                        "minecraft:potion_contents": "minecraft:water"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "survival_rework_jj:flask"
+        ]
+    }
+}
