@@ -1,0 +1,1 @@
+scoreboard players set #temp2 main_score 3

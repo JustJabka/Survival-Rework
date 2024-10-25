@@ -1,0 +1,2 @@
+scoreboard players remove @s[scores={survival_rework_jj.effect.thirst=1..}] survival_rework_jj.effect.thirst 1
+tag @s[scores={survival_rework_jj.effect.thirst=..0}] remove survival_rework_jj.effect.thirst
