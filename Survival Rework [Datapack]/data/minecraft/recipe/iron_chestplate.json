@@ -1,9 +1,0 @@
-{
-	"type": "minecraft:smithing_transform",
-	"base": "minecraft:chainmail_chestplate",
-	"addition": "minecraft:iron_ingot",
-	"result": {
-		"id": "minecraft:iron_chestplate",
-		"count": 1
-	}
-}

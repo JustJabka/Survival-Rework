@@ -1,9 +1,0 @@
-{
-	"type": "minecraft:smithing_transform",
-	"base": "minecraft:chainmail_boots",
-	"addition": "minecraft:iron_ingot",
-	"result": {
-		"id": "minecraft:iron_boots",
-		"count": 1
-	}
-}
