@@ -1,0 +1,56 @@
+{
+  "criteria": {
+    "drink1": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:potion",
+          "components": {
+            "minecraft:potion_contents": {
+              "potion": "minecraft:water"
+            }
+          }
+        }
+      }
+    },
+    "drink2": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:milk_bucket"
+        }
+      }
+    },
+    "drink3": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "#survival_rework_jj:water_add"
+        }
+      }
+    },
+    "drink4": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+					"components": {
+						"minecraft:custom_data": {
+              "survival_rework_jj.ice_cube": true
+            }
+					}
+				}
+      }
+    }
+  },
+  "requirements": [
+    [
+      "drink1",
+      "drink2",
+      "drink3",
+      "drink4"
+    ]
+  ],
+  "rewards": {
+    "function": "survival_rework_jj:thirst/drink"
+  }
+}

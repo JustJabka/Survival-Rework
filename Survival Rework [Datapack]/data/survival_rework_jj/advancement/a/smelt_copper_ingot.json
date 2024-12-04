@@ -1,0 +1,37 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:copper_ingot"
+        },
+        "title": {
+            "translate": "advancements.survival_rework_jj.smelt_copper_ingot.title",
+            "fallback": "Yay! Copper"
+        },
+        "description": {
+            "translate": "advancements.survival_rework_jj.smelt_copper_ingot.description",
+            "fallback": "Smelt an Copper Ingot"
+        }
+    },
+    "parent": "survival_rework_jj:a/craft_flint_tool",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:copper_ingot"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "minecraft:stone_axe",
+            "minecraft:stone_hoe",
+            "minecraft:stone_pickaxe",
+            "minecraft:stone_shovel",
+            "minecraft:stone_sword"
+        ]
+    }
+}

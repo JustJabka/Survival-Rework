@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"XS",
+		"X#"
+	],
+	"key": {
+		"#": "minecraft:stick",
+		"X": "minecraft:flint",
+		"S": "minecraft:string"
+	},
+	"result": {
+		"id": "minecraft:wooden_axe",
+		"count": 1
+	}
+}

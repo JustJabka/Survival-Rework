@@ -1,0 +1,35 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:poisonous_potato",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_model": "justjabka:ice_cube",
+                                "minecraft:food": {
+                                    "nutrition": 0,
+                                    "saturation": 0,
+                                    "can_always_eat": true
+                                },
+                                "minecraft:consumable": {
+                                    "animation": "eat",
+                                    "consume_seconds": 0.6
+                                },
+                                "minecraft:item_name": "{\"translate\":\"item.survival_rework_jj.ice_cube\",\"fallback\":\"Ice Cube\"}"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{survival_rework_jj.ice_cube:1b}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

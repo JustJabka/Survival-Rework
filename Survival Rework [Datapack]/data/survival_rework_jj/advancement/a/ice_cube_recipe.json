@@ -1,0 +1,15 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:changed_dimension",
+			"conditions": {
+				"to": "minecraft:the_nether"
+			}
+		}
+	},
+    "rewards": {
+        "recipes": [
+            "survival_rework_jj:ice_cube"
+        ]
+    }
+}

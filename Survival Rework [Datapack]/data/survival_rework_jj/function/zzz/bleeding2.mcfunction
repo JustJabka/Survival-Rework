@@ -1,0 +1,2 @@
+execute if score .bleeding survival_rework_jj.config matches 0 run return run scoreboard players set .bleeding survival_rework_jj.config 1
+execute if score .bleeding survival_rework_jj.config matches 1 run scoreboard players set .bleeding survival_rework_jj.config 0

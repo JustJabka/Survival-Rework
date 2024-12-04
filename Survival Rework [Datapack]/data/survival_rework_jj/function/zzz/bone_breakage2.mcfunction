@@ -1,0 +1,2 @@
+execute if score .bone_breakage survival_rework_jj.config matches 0 run return run scoreboard players set .bone_breakage survival_rework_jj.config 1
+execute if score .bone_breakage survival_rework_jj.config matches 1 run scoreboard players set .bone_breakage survival_rework_jj.config 0

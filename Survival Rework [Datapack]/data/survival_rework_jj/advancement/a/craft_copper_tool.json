@@ -1,0 +1,77 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:stone_axe"
+        },
+        "title": {
+            "translate": "advancements.survival_rework_jj.craft_copper_tool.title",
+            "fallback": "Steampunk?... no"
+        },
+        "description": {
+            "translate": "advancements.survival_rework_jj.craft_copper_tool.description",
+            "fallback": "Craft any copper tool"
+        }
+    },
+    "parent": "survival_rework_jj:a/smelt_copper_ingot",
+    "criteria": {
+        "r1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_axe"
+                    }
+                ]
+            }
+        },
+        "r2": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_hoe"
+                    }
+                ]
+            }
+        },
+        "r3": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_pickaxe"
+                    }
+                ]
+            }
+        },
+        "r4": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_sword"
+                    }
+                ]
+            }
+        },
+        "r5": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_shovel"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "r1",
+            "r2",
+            "r3",
+            "r4",
+            "r5"
+        ]
+    ]
+}

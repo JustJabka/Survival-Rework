@@ -1,0 +1,2 @@
+execute if score .thirst survival_rework_jj.config matches 0 run return run scoreboard players set .thirst survival_rework_jj.config 1
+execute if score .thirst survival_rework_jj.config matches 1 run scoreboard players set .thirst survival_rework_jj.config 0

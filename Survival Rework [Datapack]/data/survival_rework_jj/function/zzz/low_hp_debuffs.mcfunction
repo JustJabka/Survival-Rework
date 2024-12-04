@@ -1,0 +1,2 @@
+function survival_rework_jj:zzz/low_hp_debuffs2
+function survival_rework_jj:config

@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:poisonous_potato",
+            "components": {
+                "minecraft:item_model": "justjabka:splint"
+            }
+        },
+        "title": {
+            "translate": "advancements.survival_rework_jj.use_splint.title",
+            "fallback": "Time is a great healer"
+        },
+        "description": {
+            "translate": "advancements.survival_rework_jj.use_splint.description",
+            "fallback": "Secure the broken bone with a Splint and wait for it to fuse up"
+        }
+    },
+    "parent": "survival_rework_jj:a/break_leg",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
