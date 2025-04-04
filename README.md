@@ -8,4 +8,4 @@
 * [Regeneration System](https://github.com/JustJabka/Survival-Rework/wiki/Regeneration-System)
 * [Bone Fractures](https://github.com/JustJabka/Survival-Rework/wiki/Bone-Fractures)
 * [Recipes](https://github.com/JustJabka/Survival-Rework/wiki/Recipes)
-* [Commands](https://github.com/JustJabka/Survival-Rework/wiki/Commands)
+* [Developing](https://github.com/JustJabka/Survival-Rework/wiki/Developing)
