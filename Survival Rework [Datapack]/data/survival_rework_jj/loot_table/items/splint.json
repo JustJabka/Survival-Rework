@@ -19,15 +19,17 @@
                                 "minecraft:consumable": {
                                     "consume_seconds": 2147483647
                                 },
-                                "minecraft:item_name": "{\"translate\":\"item.survival_rework_jj.splint\",\"fallback\":\"Splint\"}",
+                                "minecraft:item_name": {
+                                    "translate": "item.survival_rework_jj.splint",
+                                    "fallback": "Splint"
+                                },
                                 "minecraft:use_cooldown": {
                                     "seconds": 3
+                                },
+                                "minecraft:custom_data": {
+                                    "survival_rework_jj.splint": true
                                 }
                             }
-                        },
-                        {
-                            "function": "minecraft:set_custom_data",
-                            "tag": "{survival_rework_jj.splint:1b}"
                         }
                     ]
                 }

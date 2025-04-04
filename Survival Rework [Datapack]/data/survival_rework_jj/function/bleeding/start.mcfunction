@@ -1,5 +1,5 @@
 advancement revoke @s only survival_rework_jj:bleeding
-
+say 1
 # start bleeding if player hp 15 or less
 tag @s[tag=!survival_rework_jj.bleeding] add survival_rework_jj.bleeding
 scoreboard players set @s[tag=survival_rework_jj.bleeding] survival_rework_jj.bleeding_timer 140

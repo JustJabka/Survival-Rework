@@ -14,7 +14,9 @@
                                     "equipment": {
                                         "offhand": {
                                             "predicates": {
-                                                "minecraft:custom_data": "{survival_rework_jj.flask:1b}"
+                                                "minecraft:custom_data": {
+                                                    "survival_rework_jj.flask": true
+                                                }
                                             }
                                         }
                                     }
@@ -27,7 +29,9 @@
                                     "equipment": {
                                         "mainhand": {
                                             "predicates": {
-                                                "minecraft:custom_data": "{survival_rework_jj.flask:1b}"
+                                                "minecraft:custom_data": {
+                                                    "survival_rework_jj.flask": true
+                                                }
                                             }
                                         }
                                     }

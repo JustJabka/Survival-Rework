@@ -11,7 +11,7 @@
             "translate": "advancements.survival_rework_jj.root.description",
             "fallback": "I think this survival will be harder..."
         },
-        "background": "justjabka:textures/gui/advancements/backgrounds/survival_rework_jj.png",
+        "background": "justjabka:gui/advancements/backgrounds/survival_rework",
         "show_toast": false,
         "announce_to_chat": false
     },

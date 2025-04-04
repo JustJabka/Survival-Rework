@@ -1,0 +1,2 @@
+execute unless entity @e[type=minecraft:marker,tag=math,limit=1] run summon minecraft:marker ~ ~ ~ {Tags:["math"]}
+execute as @e[type=minecraft:marker,tag=math,limit=1] run function survival_rework_jj:temperature/get/cos/main

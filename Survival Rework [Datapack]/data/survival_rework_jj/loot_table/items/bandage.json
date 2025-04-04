@@ -19,12 +19,14 @@
                 "minecraft:consumable": {
                   "consume_seconds": 2147483647
                 },
-                "minecraft:item_name": "{\"translate\":\"item.survival_rework_jj.bandage\",\"fallback\":\"Bandage\"}"
+                "minecraft:item_name": {
+                  "translate": "item.survival_rework_jj.bandage",
+                  "fallback": "Bandage" 
+                },
+                "minecraft:custom_data": {
+                  "survival_rework_jj.bandage": true
+                }
               }
-            },
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": "{survival_rework_jj.bandage:1b}"
             }
           ]
         }

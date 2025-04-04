@@ -30,22 +30,14 @@
     "death.attack.thirst.player": "%1$s умер от жажды пока сражался с %2$s",
     "death.attack.hyperthermia": "%1$s умер от перегрева",
     "death.attack.hyperthermia.player": "%1$s умер от перегрева пока сражался с %2$s",
-
-    "item.minecraft.wooden_axe": "Кремневый топор",
-    "item.minecraft.wooden_hoe": "Кремневая мотыга",
-    "item.minecraft.wooden_pickaxe": "Кремневая кирка",
-    "item.minecraft.wooden_shovel": "Кремневая лопата",
-    "item.minecraft.wooden_sword": "Кремневый нож",
-    "item.minecraft.stone_axe": "Медный топор",
-    "item.minecraft.stone_hoe": "Медная мотыга",
-    "item.minecraft.stone_pickaxe": "Медная кирка",
-    "item.minecraft.stone_shovel": "Медная лопата",
-    "item.minecraft.stone_sword": "Медный мечь",
     
     "item.survival_rework_jj.bandage": "Бинт",
     "item.survival_rework_jj.flask": "Фляга",
     "item.survival_rework_jj.medicinal_ointment": "Лечебная мазь",
     "item.survival_rework_jj.medicinal_powder": "Лечебный порошок",
     "item.survival_rework_jj.splint": "Шина",
-    "item.survival_rework_jj.ice_cube": "Кубик льда"
+    "item.survival_rework_jj.ice_cube": "Кубик льда",
+    
+    "enchantment.survival_rework_jj.emberguard": "Защита от холода",
+    "enchantment.survival_rework_jj.frostguard": "Защита от жары"
 }

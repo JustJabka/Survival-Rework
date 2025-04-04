@@ -14,7 +14,10 @@
         "id": "minecraft:poisonous_potato",
         "count": 1,
         "components": {
-            "minecraft:item_name": "{\"translate\":\"item.survival_rework_jj.splint\",\"fallback\":\"Splint\"}",
+            "minecraft:item_name": {
+                "translate": "item.survival_rework_jj.splint",
+                "fallback": "Splint"
+            },
             "minecraft:item_model": "justjabka:splint",
             "minecraft:custom_data": {
                 "survival_rework_jj.splint": true

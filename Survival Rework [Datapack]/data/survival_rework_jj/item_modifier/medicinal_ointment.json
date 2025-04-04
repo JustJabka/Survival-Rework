@@ -1,9 +1,5 @@
 [
     {
-        "function": "minecraft:set_custom_data",
-        "tag": "{survival_rework_jj.medicinal_ointment:1b}"
-    },
-    {
         "function": "minecraft:set_components",
         "components": {
             "minecraft:food": {
@@ -28,12 +24,18 @@
                     }
                 ]
             },
+            "minecraft:custom_data": {
+                "survival_rework_jj.medicinal_ointment": true
+            },
             "minecraft:use_cooldown": {
                 "seconds": 7,
                 "cooldown_group": "survival_rework_jj:medicinal_ointment"
             },
             "minecraft:item_model": "justjabka:medicinal_ointment",
-            "minecraft:item_name": "{\"translate\":\"item.survival_rework_jj.medicinal_ointment\",\"fallback\":\"Medicinal Ointment\"}"
+            "minecraft:item_name": {
+                "translate": "item.survival_rework_jj.medicinal_ointment",
+                "fallback": "Medicinal Ointment"
+            }
         }
     }
 ]

@@ -15,7 +15,9 @@
                 ],
                 "item": {
                     "predicates": {
-                        "minecraft:custom_data": "{survival_rework_jj.splint:1b}"
+                        "minecraft:custom_data": {
+                            "survival_rework_jj.splint": true
+                        }
                     }
                 }
             }
@@ -35,7 +37,9 @@
                 ],
                 "item": {
                     "predicates": {
-                        "minecraft:custom_data": "{survival_rework_jj.splint:1b}"
+                        "minecraft:custom_data": {
+                            "survival_rework_jj.splint": true
+                        }
                     }
                 }
             }
@@ -55,7 +59,9 @@
                 ],
                 "item": {
                     "predicates": {
-                        "minecraft:custom_data": "{survival_rework_jj.splint:1b}"
+                        "minecraft:custom_data": {
+                            "survival_rework_jj.splint": true
+                        }
                     }
                 }
             }

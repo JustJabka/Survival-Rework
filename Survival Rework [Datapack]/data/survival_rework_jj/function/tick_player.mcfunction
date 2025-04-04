@@ -40,7 +40,6 @@ execute at @s if predicate {"condition":"minecraft:entity_properties","entity":"
 execute at @s[gamemode=!creative,gamemode=!spectator] anchored eyes positioned ^ ^ ^ run function survival_rework_jj:thirst/main
 execute if entity @s[gamemode=creative] run function survival_rework_jj:ui/remove_display
 execute if entity @s[gamemode=spectator] run function survival_rework_jj:ui/remove_display
-function survival_rework_jj:thirst/effects/main
 
 scoreboard players remove @s[scores={survival_rework_jj.thirst_timer=..1}] survival_rework_jj.thirst 1
 scoreboard players set @s[scores={survival_rework_jj.thirst_timer=..1}] survival_rework_jj.thirst_timer 3600
@@ -51,6 +50,11 @@ execute if score .thirst survival_rework_jj.config matches 1 run damage @s[score
 # reset scores
 scoreboard players set @s[scores={survival_rework_jj.jump=1..}] survival_rework_jj.jump 0
 scoreboard players set @s[scores={survival_rework_jj.walk=1..}] survival_rework_jj.walk 0
+
+#############
+#  EFFECTS  #
+#############
+function survival_rework_jj:effects/main
 
 ##################
 # LOW HP DEBUFF  #

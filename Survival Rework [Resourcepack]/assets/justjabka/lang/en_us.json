@@ -30,22 +30,14 @@
     "death.attack.thirst.player": "%1$s died of thirst while fighting %2$s",
     "death.attack.hyperthermia": "%1$s died of hyperthermia",
     "death.attack.hyperthermia.player": "%1$s died of hyperthermia while fighting %2$s",
-
-    "item.minecraft.wooden_axe": "Flint Axe",
-    "item.minecraft.wooden_hoe": "Flint Hoe",
-    "item.minecraft.wooden_pickaxe": "Flint Pickaxe",
-    "item.minecraft.wooden_shovel": "Flint Shovel",
-    "item.minecraft.wooden_sword": "Flint Knife",
-    "item.minecraft.stone_axe": "Copper Axe",
-    "item.minecraft.stone_hoe": "Copper Hoe",
-    "item.minecraft.stone_pickaxe": "Copper Pickaxe",
-    "item.minecraft.stone_shovel": "Copper Shovel",
-    "item.minecraft.stone_sword": "Copper Sword",
     
     "item.survival_rework_jj.bandage": "Bandage",
     "item.survival_rework_jj.flask": "Flask",
     "item.survival_rework_jj.medicinal_ointment": "Medicinal Ointment",
     "item.survival_rework_jj.medicinal_powder": "Medicinal Powder",
     "item.survival_rework_jj.splint": "Splint",
-    "item.survival_rework_jj.ice_cube": "Ice Cube"
+    "item.survival_rework_jj.ice_cube": "Ice Cube",
+
+    "enchantment.survival_rework_jj.emberguard": "Emberguard",
+    "enchantment.survival_rework_jj.frostguard": "Frostguard"
 }

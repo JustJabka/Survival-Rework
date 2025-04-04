@@ -20,12 +20,14 @@
                                     "animation": "eat",
                                     "consume_seconds": 0.6
                                 },
-                                "minecraft:item_name": "{\"translate\":\"item.survival_rework_jj.ice_cube\",\"fallback\":\"Ice Cube\"}"
+                                "minecraft:item_name": {
+                                    "translate": "item.survival_rework_jj.ice_cube",
+                                    "fallback": "Ice Cube"
+                                },
+                                "minecraft:custom_data": {
+                                    "survival_rework_jj.ice_cube": true
+                                }
                             }
-                        },
-                        {
-                            "function": "minecraft:set_custom_data",
-                            "tag": "{survival_rework_jj.ice_cube:1b}"
                         }
                     ]
                 }

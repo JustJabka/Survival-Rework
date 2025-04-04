@@ -22,7 +22,7 @@
 						"entity": "this",
 						"scores": {
 							"survival_rework_jj.temperature": {
-								"max": 30
+								"max": 2800
 							}
 						}
 					},
@@ -43,6 +43,6 @@
 		}
 	},
 	"rewards": {
-		"function": "survival_rework_jj:temperature/damage/hypothermia/main"
+		"function": "survival_rework_jj:effects/hypotermia/main"
 	}
 }

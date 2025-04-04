@@ -11,23 +11,15 @@
                 "condition": "minecraft:all_of",
                 "terms": [
                   {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "type": "minecraft:player",
-                      "equipment": {
-                        "chest": {
-                          "items": "minecraft:leather_chestplate"
-                        }
-                      }
-                    }
-                  },
-                  {
                     "condition": "minecraft:entity_scores",
                     "entity": "this",
                     "scores": {
                       "survival_rework_jj.percent_health": {
                         "max": 70
+                      },
+                      "survival_rework_jj.armor": {
+                        "min": 3,
+                        "max": 5
                       }
                     }
                   },
@@ -41,23 +33,15 @@
                 "condition": "minecraft:all_of",
                 "terms": [
                   {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "type": "minecraft:player",
-                      "equipment": {
-                        "chest": {
-                          "items": "minecraft:golden_chestplate"
-                        }
-                      }
-                    }
-                  },
-                  {
                     "condition": "minecraft:entity_scores",
                     "entity": "this",
                     "scores": {
                       "survival_rework_jj.percent_health": {
                         "max": 70
+                      },
+                      "survival_rework_jj.armor": {
+                        "min": 6,
+                        "max": 8
                       }
                     }
                   },
@@ -71,23 +55,15 @@
                 "condition": "minecraft:all_of",
                 "terms": [
                   {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "type": "minecraft:player",
-                      "equipment": {
-                        "chest": {
-                          "items": "minecraft:chainmail_chestplate"
-                        }
-                      }
-                    }
-                  },
-                  {
                     "condition": "minecraft:entity_scores",
                     "entity": "this",
                     "scores": {
                       "survival_rework_jj.percent_health": {
                         "max": 70
+                      },
+                      "survival_rework_jj.armor": {
+                        "min": 9,
+                        "max": 11
                       }
                     }
                   },
@@ -101,23 +77,37 @@
                 "condition": "minecraft:all_of",
                 "terms": [
                   {
-                    "condition": "minecraft:entity_properties",
+                    "condition": "minecraft:entity_scores",
                     "entity": "this",
-                    "predicate": {
-                      "type": "minecraft:player",
-                      "equipment": {
-                        "chest": {
-                          "items": "minecraft:iron_chestplate"
-                        }
+                    "scores": {
+                      "survival_rework_jj.percent_health": {
+                        "max": 70
+                      },
+                      "survival_rework_jj.armor": {
+                        "min": 12,
+                        "max": 14
                       }
                     }
                   },
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.55
+                  }
+                ]
+              },
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
                   {
                     "condition": "minecraft:entity_scores",
                     "entity": "this",
                     "scores": {
                       "survival_rework_jj.percent_health": {
                         "max": 70
+                      },
+                      "survival_rework_jj.armor": {
+                        "min": 15,
+                        "max": 17
                       }
                     }
                   },
@@ -131,23 +121,14 @@
                 "condition": "minecraft:all_of",
                 "terms": [
                   {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "type": "minecraft:player",
-                      "equipment": {
-                        "chest": {
-                          "items": "minecraft:diamond_chestplate"
-                        }
-                      }
-                    }
-                  },
-                  {
                     "condition": "minecraft:entity_scores",
                     "entity": "this",
                     "scores": {
                       "survival_rework_jj.percent_health": {
                         "max": 70
+                      },
+                      "survival_rework_jj.armor": {
+                        "min": 18
                       }
                     }
                   },
@@ -161,79 +142,14 @@
                 "condition": "minecraft:all_of",
                 "terms": [
                   {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "type": "minecraft:player",
-                      "equipment": {
-                        "chest": {
-                          "items": "minecraft:netherite_chestplate"
-                        }
-                      }
-                    }
-                  },
-                  {
                     "condition": "minecraft:entity_scores",
                     "entity": "this",
                     "scores": {
                       "survival_rework_jj.percent_health": {
                         "max": 70
-                      }
-                    }
-                  },
-                  {
-                    "condition": "minecraft:random_chance",
-                    "chance": 0.25
-                  }
-                ]
-              },
-              {
-                "condition": "minecraft:all_of",
-                "terms": [
-                  {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "type": "minecraft:player",
-                      "equipment": {
-                        "chest": {
-                          "items": "minecraft:air"
-                        }
-                      }
-                    }
-                  },
-                  {
-                    "condition": "minecraft:entity_scores",
-                    "entity": "this",
-                    "scores": {
-                      "survival_rework_jj.percent_health": {
-                        "max": 70
-                      }
-                    }
-                  }
-                ]
-              },
-              {
-                "condition": "minecraft:all_of",
-                "terms": [
-                  {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "type": "minecraft:player",
-                      "equipment": {
-                        "chest": {
-                          "items": "minecraft:elytra"
-                        }
-                      }
-                    }
-                  },
-                  {
-                    "condition": "minecraft:entity_scores",
-                    "entity": "this",
-                    "scores": {
-                      "survival_rework_jj.percent_health": {
-                        "max": 70
+                      },
+                      "survival_rework_jj.armor": {
+                        "max": 0
                       }
                     }
                   }
@@ -242,17 +158,17 @@
             ]
           },
           {
-						"condition": "minecraft:value_check",
-						"value": {
-							"type": "minecraft:score",
-							"target": {
-								"type": "minecraft:fixed",
-								"name": ".bleeding"
-							},
-							"score": "survival_rework_jj.config"
-						},
-						"range": 1
-					}
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": ".bleeding"
+              },
+              "score": "survival_rework_jj.config"
+            },
+            "range": 1
+          }
         ],
         "damage": {
           "taken": {

@@ -11,8 +11,13 @@
             "minecraft:item_model": "justjabka:medicinal_powder",
             "!minecraft:food": {},
             "!minecraft:consumable": {},
-            "minecraft:item_name": "{\"translate\":\"item.survival_rework_jj.medicinal_powder\",\"fallback\":\"Medicinal Powder\"}",
-            "minecraft:custom_data": "{survival_rework_jj.medicinal_powder:1b}"
+            "minecraft:item_name": {
+                "translate": "item.survival_rework_jj.medicinal_powder",
+                "fallback": "Medicinal Powder"
+            },
+            "minecraft:custom_data": {
+                "survival_rework_jj.medicinal_powder": true
+            }
         }
     }
 }

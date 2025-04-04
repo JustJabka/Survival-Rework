@@ -15,7 +15,9 @@
                 ],
                 "item": {
                     "predicates": {
-                        "minecraft:custom_data": "{survival_rework_jj.bandage:1b}"
+                        "minecraft:custom_data": {
+                            "survival_rework_jj.bandage": true
+                        }
                     }
                 }
             }

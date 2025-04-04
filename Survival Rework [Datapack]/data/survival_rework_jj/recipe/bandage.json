@@ -10,7 +10,10 @@
         "id": "minecraft:poisonous_potato",
         "count": 1,
         "components": {
-            "minecraft:item_name": "{\"translate\":\"item.survival_rework_jj.bandage\",\"fallback\":\"Bandage\"}",
+            "minecraft:item_name": {
+                "translate": "item.survival_rework_jj.bandage",
+                "fallback": "Bandage"
+            },
             "minecraft:item_model": "justjabka:bandage",
             "minecraft:custom_data": {
                 "survival_rework_jj.bandage": true

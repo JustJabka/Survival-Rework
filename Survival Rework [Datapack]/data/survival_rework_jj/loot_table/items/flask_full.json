@@ -41,7 +41,10 @@
                       "has_consume_particles": false,
                       "sound": "minecraft:entity.generic.drink"
                     },
-                    "minecraft:item_name": "{\"translate\":\"item.survival_rework_jj.flask\",\"fallback\":\"Flask\"}",
+                    "minecraft:item_name": {
+                      "translate": "item.survival_rework_jj.flask",
+                      "fallback": "Flask"
+                    },
                     "minecraft:custom_data": {
                       "survival_rework_jj.flask": true
                     },
@@ -62,7 +65,10 @@
                           "has_consume_particles": false,
                           "sound": "minecraft:entity.generic.drink"
                         },
-                        "minecraft:item_name": "{\"translate\":\"item.survival_rework_jj.flask\",\"fallback\":\"Flask\"}",
+                        "minecraft:item_name": {
+                          "translate": "item.survival_rework_jj.flask",
+                          "fallback": "Flask"
+                        },
                         "minecraft:custom_data": {
                           "survival_rework_jj.flask": true
                         },
@@ -75,7 +81,10 @@
                             "minecraft:max_stack_size": 1,
                             "!minecraft:food": {},
                             "!minecraft:consumable": {},
-                            "minecraft:item_name": "{\"translate\":\"item.survival_rework_jj.flask\",\"fallback\":\"Flask\"}",
+                            "minecraft:item_name": {
+                              "translate": "item.survival_rework_jj.flask",
+                              "fallback": "Flask"
+                            },
                             "minecraft:custom_data": {
                               "survival_rework_jj.flask": true
                             }
@@ -85,12 +94,14 @@
                     }
                   }
                 },
-                "minecraft:item_name": "{\"translate\":\"item.survival_rework_jj.flask\",\"fallback\":\"Flask\"}"
+                "minecraft:item_name": {
+                  "translate": "item.survival_rework_jj.flask",
+                  "fallback": "Flask"
+                },
+                "minecraft:custom_data": {
+                  "survival_rework_jj.flask": true
+                }
               }
-            },
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": "{survival_rework_jj.flask:1b}"
             }
           ]
         }

@@ -25,7 +25,7 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": "#survival_rework_jj:water_add"
+          "items": "#survival_rework_jj:juicy"
         }
       }
     },
