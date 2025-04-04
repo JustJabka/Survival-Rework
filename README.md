@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/5403eedb-41a3-4f21-a1bc-3cf4cfd057ff"/>
+  <img src="https://github.com/JustJabka/Survival-Rework/blob/main/wiki/logo.png?raw=true"/>
 </p>
 
 ## Content
