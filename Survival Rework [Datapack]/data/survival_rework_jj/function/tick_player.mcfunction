@@ -28,18 +28,18 @@ execute store result score @s survival_rework_jj.max_health run attribute @s min
 execute store result score @s survival_rework_jj.percent_health run scoreboard players operation @s survival_rework_jj.current_health /= @s survival_rework_jj.max_health
 
 ## main
-execute if score .bleeding survival_rework_jj.config matches 1 if entity @s[tag=survival_rework_jj.bleeding2,gamemode=!creative,gamemode=!spectator] at @s run function survival_rework_jj:bleeding/main
+execute if score .bleeding survival_rework_jj.config matches 1 if entity @s[tag=survival_rework_jj.bleeding,gamemode=!creative,gamemode=!spectator] at @s run function survival_rework_jj:bleeding/main
 
 ############
 #  THIRST  #
 ############
 # raycast
-execute at @s if predicate {"condition":"minecraft:entity_properties","entity":"this","predicate":{"flags":{"is_sneaking":true}}} if function survival_rework_jj:thirst/drink_raycast/pre run function survival_rework_jj:thirst/drink_raycast/start
+execute at @s if predicate {"condition":"minecraft:entity_properties","entity":"this","predicate":{type_specific:{type:"minecraft:player",input:{sneak:true}}}} if function survival_rework_jj:thirst/drink_raycast/pre run function survival_rework_jj:thirst/drink_raycast/start
 
 # timer
-execute at @s[gamemode=!creative,gamemode=!spectator] anchored eyes positioned ^ ^ ^ run function survival_rework_jj:thirst/main
-execute if entity @s[gamemode=creative] run function survival_rework_jj:ui/remove_display
-execute if entity @s[gamemode=spectator] run function survival_rework_jj:ui/remove_display
+execute at @s[gamemode=!creative,gamemode=!spectator] run function survival_rework_jj:thirst/main
+execute if entity @s[gamemode=creative] run function survival_rework_jj:ui/hide
+execute if entity @s[gamemode=spectator] run function survival_rework_jj:ui/hide
 
 scoreboard players remove @s[scores={survival_rework_jj.thirst_timer=..1}] survival_rework_jj.thirst 1
 scoreboard players set @s[scores={survival_rework_jj.thirst_timer=..1}] survival_rework_jj.thirst_timer 3600
@@ -49,7 +49,6 @@ execute if score .thirst survival_rework_jj.config matches 1 run damage @s[score
 
 # reset scores
 scoreboard players set @s[scores={survival_rework_jj.jump=1..}] survival_rework_jj.jump 0
-scoreboard players set @s[scores={survival_rework_jj.walk=1..}] survival_rework_jj.walk 0
 
 #############
 #  EFFECTS  #

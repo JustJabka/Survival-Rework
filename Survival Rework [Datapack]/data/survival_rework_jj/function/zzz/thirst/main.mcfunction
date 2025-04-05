@@ -1,0 +1,2 @@
+execute if score .thirst survival_rework_jj.config matches 0 run return run function survival_rework_jj:zzz/thirst/enable
+execute if score .thirst survival_rework_jj.config matches 1 run function survival_rework_jj:zzz/thirst/disable

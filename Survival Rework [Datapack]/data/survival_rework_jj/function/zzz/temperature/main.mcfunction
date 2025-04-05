@@ -1,0 +1,2 @@
+execute if score .temperature survival_rework_jj.config matches 0 run return run function survival_rework_jj:zzz/temperature/enable
+execute if score .temperature survival_rework_jj.config matches 1 run function survival_rework_jj:zzz/temperature/disable

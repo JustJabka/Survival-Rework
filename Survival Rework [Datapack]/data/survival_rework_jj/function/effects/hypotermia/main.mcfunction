@@ -4,7 +4,5 @@ execute if score #temp main_score matches 1 anchored eyes positioned ^ ^ ^ run s
 execute store success score #temp main_score run fill ~ ~ ~ ~ ~ ~ minecraft:powder_snow replace #survival_rework_jj:air
 execute if score #temp main_score matches 1 run summon minecraft:marker ~ ~ ~ {Tags:["survival_rework_jj.snow_effect"]}
 
-effect give @s minecraft:blindness 3 0 true
-
 # revoke
 advancement revoke @s only survival_rework_jj:hypothermia

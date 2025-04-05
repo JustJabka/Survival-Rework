@@ -1,4 +1,3 @@
-scoreboard players set @s survival_rework_jj.walk 0
 scoreboard players set @s survival_rework_jj.jump 0
 scoreboard players set @s survival_rework_jj.fall_one_cm 0
 
@@ -17,5 +16,5 @@ scoreboard players set @s survival_rework_jj.temperature 3660
 
 tag @s remove survival_rework_jj.effect.thirst
 tag @s remove survival_rework_jj.effect.freshness
-tag @s remove survival_rework_jj.bleeding2
-effect clear @s minecraft:blindness
+tag @s remove survival_rework_jj.bleeding
+effect clear @s[scores={survival_rework_jj.health=0}] minecraft:blindness

@@ -3,7 +3,7 @@
         {
             "type": "bitmap",
             "file": "justjabka:item/thirst/icon.png",
-            "ascent": 2,
+            "ascent": 12,
             "height": 27,
             "chars": [
                 "\uE000"
@@ -12,7 +12,7 @@
         {
             "type": "bitmap",
             "file": "justjabka:item/thirst/icon_half.png",
-            "ascent": 2,
+            "ascent": 12,
             "height": 27,
             "chars": [
                 "\uE001"
@@ -21,7 +21,7 @@
         {
             "type": "bitmap",
             "file": "justjabka:item/thirst/icon_off.png",
-            "ascent": 2,
+            "ascent": 12,
             "height": 27,
             "chars": [
                 "\uE002"

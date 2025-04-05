@@ -9,7 +9,7 @@
                         "entity": "this",
                         "predicate": {
                             "type": "minecraft:player",
-                            "nbt": "{Tags:[\"survival_rework_jj.bleeding2\"]}"
+                            "nbt": "{Tags:[\"survival_rework_jj.bleeding\"]}"
                         }
                     }
                 ],
