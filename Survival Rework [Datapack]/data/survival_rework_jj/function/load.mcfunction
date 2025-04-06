@@ -21,14 +21,7 @@ scoreboard objectives add survival_rework_jj.food food
 scoreboard objectives add survival_rework_jj.air air
 scoreboard objectives add survival_rework_jj.jump minecraft.custom:minecraft.jump
 scoreboard objectives add survival_rework_jj.fall_one_cm minecraft.custom:minecraft.fall_one_cm
-
-# config
 scoreboard objectives add survival_rework_jj.config dummy {text:"Config"}
-execute unless score .thirst survival_rework_jj.config matches 0..1 run scoreboard players set .thirst survival_rework_jj.config 1
-execute unless score .temperature survival_rework_jj.config matches 0..1 run scoreboard players set .temperature survival_rework_jj.config 1
-execute unless score .bleeding survival_rework_jj.config matches 0..1 run scoreboard players set .bleeding survival_rework_jj.config 1
-execute unless score .bone_breakage survival_rework_jj.config matches 0..1 run scoreboard players set .bone_breakage survival_rework_jj.config 1
-execute unless score .low_hp_debuffs survival_rework_jj.config matches 0..1 run scoreboard players set .low_hp_debuffs survival_rework_jj.config 1
 
 ### LEGS BREAK
 scoreboard objectives add survival_rework_jj.legs_break_lvl dummy
@@ -54,3 +47,10 @@ scoreboard objectives add survival_rework_jj.effect.freshness dummy
 scoreboard objectives add survival_rework_jj.temperature dummy
 execute unless score .temperature survival_rework_jj.config matches 0..1 run data modify storage survival_rework_jj:main temperature_actionbar set value ["","","","",""]
 schedule function survival_rework_jj:temperature/loop 1s
+
+# config
+execute unless score .thirst survival_rework_jj.config matches 0..1 run scoreboard players set .thirst survival_rework_jj.config 1
+execute unless score .temperature survival_rework_jj.config matches 0..1 run scoreboard players set .temperature survival_rework_jj.config 1
+execute unless score .bleeding survival_rework_jj.config matches 0..1 run scoreboard players set .bleeding survival_rework_jj.config 1
+execute unless score .bone_breakage survival_rework_jj.config matches 0..1 run scoreboard players set .bone_breakage survival_rework_jj.config 1
+execute unless score .low_hp_debuffs survival_rework_jj.config matches 0..1 run scoreboard players set .low_hp_debuffs survival_rework_jj.config 1
