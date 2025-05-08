@@ -1,19 +1,32 @@
 {
   "criteria": {
-    "drink1": {
+    "water": {
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
           "items": "minecraft:potion",
-          "components": {
-            "minecraft:potion_contents": {
-              "potion": "minecraft:water"
+          "predicates": {
+            "minecraft:potion_contents": [
+              "minecraft:water"
+            ]
+          }
+        }
+      }
+    },
+    "clear_water": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:potion",
+          "predicates": {
+            "minecraft:custom_data": {
+              "survival_rework_jj.clear_water": true
             }
           }
         }
       }
     },
-    "drink2": {
+    "milk_bucket": {
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
@@ -21,7 +34,7 @@
         }
       }
     },
-    "drink3": {
+    "juicy": {
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
@@ -29,11 +42,11 @@
         }
       }
     },
-    "drink4": {
+    "ice_cube": {
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-					"components": {
+					"predicates": {
 						"minecraft:custom_data": {
               "survival_rework_jj.ice_cube": true
             }
@@ -44,10 +57,11 @@
   },
   "requirements": [
     [
-      "drink1",
-      "drink2",
-      "drink3",
-      "drink4"
+      "water",
+      "clear_water",
+      "milk_bucket",
+      "juicy",
+      "ice_cube"
     ]
   ],
   "rewards": {

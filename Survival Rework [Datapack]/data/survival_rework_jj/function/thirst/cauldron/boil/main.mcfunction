@@ -1,0 +1,2 @@
+scoreboard players remove @s[scores={survival_rework_jj.water_boil=1..}] survival_rework_jj.water_boil 1
+execute if score @s survival_rework_jj.water_boil matches 0 run particle minecraft:bubble_pop ~ ~0.4 ~ 0.2 0.1 0.2 0 1 normal

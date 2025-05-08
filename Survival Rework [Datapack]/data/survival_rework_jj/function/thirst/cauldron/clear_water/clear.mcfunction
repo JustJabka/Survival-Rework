@@ -1,0 +1,2 @@
+loot spawn ~ ~0.5 ~ loot survival_rework_jj:items/clear_water
+kill @e[type=minecraft:item,nbt={Item:{id:"minecraft:potion",components:{"minecraft:potion_contents":{potion:"minecraft:water"}}}},distance=..5,limit=1]

@@ -1,0 +1,28 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:potion_contents": {
+                                    "custom_color": 5680639,
+                                    "custom_effects": [],
+                                    "custom_name": "clear_water"
+                                },
+                                "minecraft:custom_data": {
+                                    "survival_rework_jj.clear_water": true
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

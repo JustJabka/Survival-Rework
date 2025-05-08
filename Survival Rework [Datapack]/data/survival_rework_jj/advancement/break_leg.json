@@ -1,15 +1,24 @@
 {
     "criteria": {
-        "easy_leg_break": {
-            "trigger": "minecraft:entity_hurt_player",
+        "easy": {
+            "trigger": "minecraft:fall_from_height",
             "conditions": {
+                "distance": {
+                    "y": {
+                        "min": 6
+                    }
+                },
                 "player": [
                     {
-                        "condition": "minecraft:entity_scores",
+                        "condition": "minecraft:entity_properties",
                         "entity": "this",
-                        "scores": {
-                            "survival_rework_jj.fall_one_cm": {
-                                "min": 659
+                        "predicate": {
+                            "type_specific": {
+                                "type": "minecraft:player",
+                                "gamemode": [
+                                    "survival",
+                                    "adventure"
+                                ]
                             }
                         }
                     },
@@ -25,22 +34,28 @@
                         },
                         "range": 1
                     }
-                ],
-                "damage": {
-                    "blocked": false
-                }
+                ]
             }
         },
-        "hard_leg_break": {
-            "trigger": "minecraft:entity_hurt_player",
+        "hard": {
+            "trigger": "minecraft:fall_from_height",
             "conditions": {
+                "distance": {
+                    "y": {
+                        "min": 13
+                    }
+                },
                 "player": [
                     {
-                        "condition": "minecraft:entity_scores",
+                        "condition": "minecraft:entity_properties",
                         "entity": "this",
-                        "scores": {
-                            "survival_rework_jj.fall_one_cm": {
-                                "min": 1081
+                        "predicate": {
+                            "type_specific": {
+                                "type": "minecraft:player",
+                                "gamemode": [
+                                    "survival",
+                                    "adventure"
+                                ]
                             }
                         }
                     },
@@ -56,22 +71,28 @@
                         },
                         "range": 1
                     }
-                ],
-                "damage": {
-                    "blocked": false
-                }
+                ]
             }
         },
-        "extreme_leg_break": {
-            "trigger": "minecraft:entity_hurt_player",
+        "extreme": {
+            "trigger": "minecraft:fall_from_height",
             "conditions": {
+                "distance": {
+                    "y": {
+                        "min": 20
+                    }
+                },
                 "player": [
                     {
-                        "condition": "minecraft:entity_scores",
+                        "condition": "minecraft:entity_properties",
                         "entity": "this",
-                        "scores": {
-                            "survival_rework_jj.fall_one_cm": {
-                                "min": 2028
+                        "predicate": {
+                            "type_specific": {
+                                "type": "minecraft:player",
+                                "gamemode": [
+                                    "survival",
+                                    "adventure"
+                                ]
                             }
                         }
                     },
@@ -87,18 +108,15 @@
                         },
                         "range": 1
                     }
-                ],
-                "damage": {
-                    "blocked": false
-                }
+                ]
             }
         }
     },
     "requirements": [
         [
-            "easy_leg_break",
-            "hard_leg_break",
-            "extreme_leg_break"
+            "easy",
+            "hard",
+            "extreme"
         ]
     ],
     "rewards": {

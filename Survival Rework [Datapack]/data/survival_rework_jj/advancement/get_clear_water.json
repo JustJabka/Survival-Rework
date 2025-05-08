@@ -1,0 +1,31 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "minecraft:glass_bottle"
+                        }
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:cauldron",
+                                    "minecraft:water_cauldron"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "survival_rework_jj:thirst/cauldron/clear_water/start"
+    }
+}

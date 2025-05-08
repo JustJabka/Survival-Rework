@@ -39,5 +39,8 @@
     "item.survival_rework_jj.ice_cube": "Ice Cube",
 
     "enchantment.survival_rework_jj.emberguard": "Emberguard",
-    "enchantment.survival_rework_jj.frostguard": "Frostguard"
+    "enchantment.survival_rework_jj.frostguard": "Frostguard",
+    
+    "item.survival_rework_jj.flask.fluid.water": "Water",
+    "item.survival_rework_jj.flask.fluid.clear_water": "Clear Water"
 }

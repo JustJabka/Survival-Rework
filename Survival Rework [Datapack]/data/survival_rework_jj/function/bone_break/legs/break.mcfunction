@@ -1,8 +1,8 @@
 # add break legs lvl in scoreboard
-scoreboard players add @s[scores={survival_rework_jj.legs_break_lvl=..2}] survival_rework_jj.legs_break_lvl 1
+scoreboard players add @s[scores={survival_rework_jj.legs_break.lvl=..2}] survival_rework_jj.legs_break.lvl 1
 
 # reset heal timer
-scoreboard players set @s[scores={survival_rework_jj.legs_break_heal_timer=1..}] survival_rework_jj.legs_break_heal_timer 9000
+scoreboard players set @s[scores={survival_rework_jj.legs_break.heal_timer=1..}] survival_rework_jj.legs_break.heal_timer 9000
 
 # break leg sound
 playsound minecraft:entity.item.break ambient @a[distance=..5] ~ ~ ~

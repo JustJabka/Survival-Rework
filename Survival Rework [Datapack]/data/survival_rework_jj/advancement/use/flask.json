@@ -1,0 +1,39 @@
+{
+    "criteria": {
+        "water": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "minecraft:custom_data": {
+                            "survival_rework_jj.flask": true,
+                            "survival_rework_jj.flask.water": true
+                        }
+                    }
+                }
+            }
+        },
+        "clear_water": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "minecraft:custom_data": {
+                            "survival_rework_jj.flask": true,
+                            "survival_rework_jj.flask.clear_water": true
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "water",
+            "clear_water"
+        ]
+    ],
+    "rewards": {
+        "function": "survival_rework_jj:thirst/flask/use"
+    }
+}

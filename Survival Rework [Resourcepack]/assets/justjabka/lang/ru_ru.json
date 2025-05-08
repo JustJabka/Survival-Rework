@@ -39,5 +39,8 @@
     "item.survival_rework_jj.ice_cube": "Кубик льда",
     
     "enchantment.survival_rework_jj.emberguard": "Защита от холода",
-    "enchantment.survival_rework_jj.frostguard": "Защита от жары"
+    "enchantment.survival_rework_jj.frostguard": "Защита от жары",
+    
+    "item.survival_rework_jj.flask.fluid.water": "Вода",
+    "item.survival_rework_jj.flask.fluid.clear_water": "Чистая вода"
 }
