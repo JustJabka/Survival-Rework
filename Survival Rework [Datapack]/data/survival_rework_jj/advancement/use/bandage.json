@@ -9,7 +9,7 @@
                         "entity": "this",
                         "predicate": {
                             "type": "minecraft:player",
-                            "nbt": "{Tags:[\"survival_rework_jj.bleeding\"]}"
+                            "nbt": "{Tags:[\"survival_rework_jj.effect.bleeding\"]}"
                         }
                     }
                 ],
@@ -24,6 +24,6 @@
         }
     },
     "rewards": {
-        "function": "survival_rework_jj:bleeding/use_bandage"
+        "function": "survival_rework_jj:use/bandage/start"
     }
 }

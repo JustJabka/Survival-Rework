@@ -99,6 +99,6 @@
         }
     },
     "rewards": {
-        "function": "survival_rework_jj:thirst/drink_raycast/interact"
+        "function": "survival_rework_jj:interaction/water/start"
     }
 }

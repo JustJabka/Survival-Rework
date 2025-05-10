@@ -23,12 +23,9 @@ scoreboard objectives add survival_rework_jj.jump minecraft.custom:minecraft.jum
 scoreboard objectives add survival_rework_jj.config dummy {text:"Config"}
 
 ### LEGS BREAK
-scoreboard objectives add survival_rework_jj.legs_break.lvl dummy
 scoreboard objectives add survival_rework_jj.legs_break.heal_timer dummy
 
 ### BLEEDING
-scoreboard objectives add survival_rework_jj.bleeding_timer dummy
-
 scoreboard objectives add survival_rework_jj.max_health dummy
 scoreboard objectives add survival_rework_jj.current_health dummy
 scoreboard objectives add survival_rework_jj.percent_health dummy
@@ -40,8 +37,10 @@ scoreboard objectives add survival_rework_jj.water_boil dummy
 execute unless score .thirst survival_rework_jj.config matches 0..1 run data modify storage survival_rework_jj:main thirst_actionbar set value ["󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿","󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿","󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿","󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿","󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿","󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿","󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿","󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿","󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿","󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿","󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿","󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿","󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿","󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿","󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿","󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿","󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿","󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿","󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿","󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿","󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿"]
 
 ### EFFECTS
+scoreboard objectives add survival_rework_jj.effect.bleeding dummy
 scoreboard objectives add survival_rework_jj.effect.thirst dummy
 scoreboard objectives add survival_rework_jj.effect.freshness dummy
+scoreboard objectives add survival_rework_jj.effect.legs_break dummy
 
 ### TEMPERATURE
 scoreboard objectives add survival_rework_jj.temperature dummy

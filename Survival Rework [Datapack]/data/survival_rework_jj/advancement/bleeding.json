@@ -188,6 +188,6 @@
     }
   },
   "rewards": {
-    "function": "survival_rework_jj:bleeding/start"
+    "function": "survival_rework_jj:effects/bleeding/give"
   }
 }

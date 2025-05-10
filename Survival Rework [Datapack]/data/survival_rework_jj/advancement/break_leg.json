@@ -120,6 +120,6 @@
         ]
     ],
     "rewards": {
-        "function": "survival_rework_jj:bone_break/legs/break"
+        "function": "survival_rework_jj:effects/bone_break/legs/give"
     }
 }

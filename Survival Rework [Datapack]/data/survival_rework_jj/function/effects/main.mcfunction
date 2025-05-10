@@ -1,3 +1,5 @@
-execute if entity @s[tag=survival_rework_jj.effect.thirst] run function survival_rework_jj:effects/thirst/main
+execute if score .bone_breakage survival_rework_jj.config matches 1 run function survival_rework_jj:effects/bone_break/legs/main
 
+execute if entity @s[tag=survival_rework_jj.effect.bleeding] at @s run function survival_rework_jj:effects/bleeding/main
+execute if entity @s[tag=survival_rework_jj.effect.thirst] run function survival_rework_jj:effects/thirst/main
 execute if entity @s[tag=survival_rework_jj.effect.freshness] run function survival_rework_jj:effects/freshness

@@ -1,0 +1,3 @@
+advancement revoke @s only survival_rework_jj:interaction/flask/water
+execute if items entity @s weapon.mainhand minecraft:poisonous_potato[minecraft:custom_data~{survival_rework_jj.flask:1b},!minecraft:damage=0] run return run function survival_rework_jj:interaction/flask/fill {hand:"mainhand", "fluid":"water"}
+execute if items entity @s weapon.offhand minecraft:poisonous_potato[minecraft:custom_data~{survival_rework_jj.flask:1b},!minecraft:damage=0] run function survival_rework_jj:interaction/flask/fill {hand:"offhand", "fluid":"water"}
