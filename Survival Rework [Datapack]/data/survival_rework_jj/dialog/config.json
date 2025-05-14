@@ -1,0 +1,88 @@
+{
+    "type": "minecraft:multi_action_input_form",
+    "title": "Survival Rework",
+    "body": {
+        "type": "minecraft:plain_message",
+        "contents": "Config"
+    },
+    "inputs": [
+        {
+            "type": "minecraft:boolean",
+            "key": "thirst",
+            "label": [
+                "Thirst",
+                {
+                    "text": "\uE000",
+                    "shadow_color": 0,
+                    "font": "justjabka:config"
+                },
+                "             "
+            ],
+            "initial": true
+        },
+        {
+            "type": "minecraft:boolean",
+            "key": "temperature",
+            "label": [
+                "Temperature",
+                {
+                    "text": "\uE001",
+                    "shadow_color": 0,
+                    "font": "justjabka:config"
+                },
+                "    "
+            ],
+            "initial": true
+        },
+        {
+            "type": "minecraft:boolean",
+            "key": "bleeding",
+            "label": [
+                "Bleeding",
+                {
+                    "text": "\uE002",
+                    "shadow_color": 0,
+                    "font": "justjabka:config"
+                },
+                "          "
+            ],
+            "initial": true
+        },
+        {
+            "type": "minecraft:boolean",
+            "key": "bone_breakage",
+            "label": [
+                "Bone Breakage",
+                {
+                    "text": "\uE003",
+                    "shadow_color": 0,
+                    "font": "justjabka:config"
+                }
+            ],
+            "initial": true
+        },
+        {
+            "type": "minecraft:boolean",
+            "key": "low_hp_debuffs",
+            "label": [
+                "Low HP Debuffs",
+                {
+                    "text": "\uE004󐀁",
+                    "shadow_color": 0,
+                    "font": "justjabka:config"
+                }
+            ],
+            "initial": true
+        }
+    ],
+    "actions": [
+        {
+            "label": "Apply",
+            "id": "apply",
+            "on_submit": {
+                "type": "minecraft:command_template",
+                "template": "function survival_rework_jj:config/update {thirst:$(thirst), temperature:$(temperature), bleeding:$(bleeding), bone_breakage:$(bone_breakage), low_hp_debuffs:$(low_hp_debuffs)}"
+            }
+        }
+    ]
+}

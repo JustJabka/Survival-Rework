@@ -36,7 +36,7 @@ execute if score .thirst survival_rework_jj.config matches 1 run damage @s[score
 # reset scores
 scoreboard players set @s[scores={survival_rework_jj.jump=1..}] survival_rework_jj.jump 0
 
-# Effects
+### Effects
 execute if entity @s[gamemode=!creative,gamemode=!spectator] run function survival_rework_jj:effects/main
 
 ### Low HP debuffs

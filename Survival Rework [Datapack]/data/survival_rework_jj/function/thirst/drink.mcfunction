@@ -14,10 +14,7 @@ tag @s[advancements={survival_rework_jj:drink={milk_bucket=true}}] remove surviv
 scoreboard players add @s[advancements={survival_rework_jj:drink={juicy=true}}] survival_rework_jj.thirst 1
 
 # ice cube
-scoreboard players add @s[advancements={survival_rework_jj:drink={ice_cube=true}}] survival_rework_jj.thirst 2
-
-tag @s[advancements={survival_rework_jj:drink={ice_cube=true}}] add survival_rework_jj.effect.freshness
-scoreboard players add @s[advancements={survival_rework_jj:drink={ice_cube=true}}] survival_rework_jj.effect.freshness 660
+execute if entity @s[advancements={survival_rework_jj:drink={ice_cube=true}}] run function survival_rework_jj:effects/freshness/give
 
 # end
 advancement revoke @s only survival_rework_jj:drink

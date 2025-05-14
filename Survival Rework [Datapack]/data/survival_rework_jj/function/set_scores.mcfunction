@@ -19,6 +19,8 @@ scoreboard players set @s survival_rework_jj.effect.thirst 0
 scoreboard players set @s survival_rework_jj.effect.freshness 0
 
 tag @s remove survival_rework_jj.effect.bleeding
+tag @s remove survival_rework_jj.effect.bleeding.1
+tag @s remove survival_rework_jj.effect.bleeding.2
 tag @s remove survival_rework_jj.effect.thirst
 tag @s remove survival_rework_jj.effect.freshness
 

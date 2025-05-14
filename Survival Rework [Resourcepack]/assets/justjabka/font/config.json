@@ -1,0 +1,55 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "justjabka:item/config/thirst.png",
+            "ascent": 13,
+            "height": 18,
+            "chars": [
+                "\uE000"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "justjabka:item/config/temperature.png",
+            "ascent": 13,
+            "height": 18,
+            "chars": [
+                "\uE001"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "justjabka:item/config/bleeding.png",
+            "ascent": 13,
+            "height": 18,
+            "chars": [
+                "\uE002"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "justjabka:item/config/bone_breakage.png",
+            "ascent": 13,
+            "height": 18,
+            "chars": [
+                "\uE003"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "justjabka:item/config/low_hp_debuffs.png",
+            "ascent": 13,
+            "height": 18,
+            "chars": [
+                "\uE004"
+            ]
+        },
+        {
+            "type": "space",
+            "advances": {
+                "󐀁": 1
+            }
+        }
+    ]
+}
