@@ -1,0 +1,2 @@
+execute if entity @s[advancements={survival_rework_jj:bleeding={items=false,projectiles=false,explosions=false,other=true}}] run return run function survival_rework_jj:effects/bleeding/give/amplifier/1
+function survival_rework_jj:effects/bleeding/give/amplifier/2

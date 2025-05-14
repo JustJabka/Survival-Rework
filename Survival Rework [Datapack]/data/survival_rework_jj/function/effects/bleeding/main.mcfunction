@@ -1,6 +1,6 @@
 # damage player with bleeding every 140 ticks (7 secounds)
 scoreboard players remove @s[scores={survival_rework_jj.effect.bleeding=1..}] survival_rework_jj.effect.bleeding 1
-execute if score @s survival_rework_jj.effect.bleeding matches ..1 run function survival_rework_jj:effects/bleeding/damage
+function survival_rework_jj:effects/bleeding/damage/start
 
 # disable regeneration effect when bleeding
 effect clear @s minecraft:regeneration

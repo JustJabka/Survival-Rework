@@ -1,5 +1,5 @@
 # add break legs lvl in scoreboard
-execute if items entity @s armor.* *[minecraft:enchantments~[{enchantments:"minecraft:feather_falling"}]] run return run function survival_rework_jj:effects/bone_break/legs/feather_falling
+execute if items entity @s armor.* *[minecraft:enchantments~[{enchantments:"minecraft:feather_falling"}]] run return run function survival_rework_jj:enchantments/feather_falling
 scoreboard players add @s[scores={survival_rework_jj.effect.legs_break=..2}] survival_rework_jj.effect.legs_break 1
 
 # reset heal timer
