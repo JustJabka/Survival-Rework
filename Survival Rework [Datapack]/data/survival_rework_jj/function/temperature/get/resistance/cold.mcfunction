@@ -1,4 +1,4 @@
-execute if items entity @s armor.* *[minecraft:enchantments~[{enchantments:["survival_rework_jj:emberguard"]}]] run return run function survival_rework_jj:enchantments/emberguard
+execute if items entity @s armor.* *[minecraft:enchantments~[{enchantments:["survival_rework_jj:emberguard"]}]] run return run function survival_rework_jj:enchantment/emberguard
 
 # Warm armor
 execute if items entity @s armor.head #survival_rework_jj:armor/warm run scoreboard players remove #survival_rework_jj.resistance main_score 2

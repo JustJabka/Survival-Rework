@@ -54,7 +54,5 @@ execute unless score .bleeding survival_rework_jj.config matches 0..1 run scoreb
 execute unless score .bone_breakage survival_rework_jj.config matches 0..1 run scoreboard players set .bone_breakage survival_rework_jj.config 1
 execute unless score .low_hp_debuffs survival_rework_jj.config matches 0..1 run scoreboard players set .low_hp_debuffs survival_rework_jj.config 1
 
-# TODO:
-# Fix issue №2
-# Update wiki
-# Temperature debuffs from effects to modifiers
+# TODO: 
+# Kill myself

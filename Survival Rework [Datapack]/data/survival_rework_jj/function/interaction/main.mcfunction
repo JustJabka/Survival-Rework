@@ -1,0 +1,2 @@
+execute if predicate {"condition":"minecraft:entity_properties","entity":"this","predicate":{type_specific:{type:"minecraft:player",input:{sneak:true}}}} if function survival_rework_jj:interaction/water/raycast/pre run function survival_rework_jj:interaction/water/raycast/start
+execute if items entity @s weapon.* minecraft:poisonous_potato[minecraft:custom_data~{survival_rework_jj.flask:1b},minecraft:damage~{damage:{min:1}}] run function survival_rework_jj:interaction/cauldron/raycast/start

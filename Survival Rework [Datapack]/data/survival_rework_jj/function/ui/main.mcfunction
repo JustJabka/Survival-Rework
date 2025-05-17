@@ -2,7 +2,7 @@ execute if score @s survival_rework_jj.thirst matches ..-1 run scoreboard player
 execute if score @s survival_rework_jj.thirst matches 21.. run scoreboard players set @s survival_rework_jj.thirst 20
 
 # temperature effects
-execute if score .temperature survival_rework_jj.config matches 1 run function survival_rework_jj:effects/temperature
+execute if score .temperature survival_rework_jj.config matches 1 run function survival_rework_jj:effect/temperature
 
 # ui
 execute store result storage survival_rework_jj:main ui.thirst int 1 run scoreboard players get @s survival_rework_jj.thirst

@@ -12,10 +12,15 @@
                                 "entity": "this",
                                 "predicate": {
                                     "equipment": {
-                                        "offhand": {
+                                        "mainhand": {
                                             "predicates": {
                                                 "minecraft:custom_data": {
-                                                    "survival_rework_jj.medicinal_powder": true
+                                                    "survival_rework_jj.flask": true
+                                                },
+                                                "minecraft:damage": {
+                                                    "damage": {
+                                                        "min": 1
+                                                    }
                                                 }
                                             }
                                         }
@@ -27,10 +32,15 @@
                                 "entity": "this",
                                 "predicate": {
                                     "equipment": {
-                                        "mainhand": {
+                                        "offhand": {
                                             "predicates": {
                                                 "minecraft:custom_data": {
-                                                    "survival_rework_jj.medicinal_powder": true
+                                                    "survival_rework_jj.flask": true
+                                                },
+                                                "minecraft:damage": {
+                                                    "damage": {
+                                                        "min": 1
+                                                    }
                                                 }
                                             }
                                         }
@@ -38,25 +48,16 @@
                                 }
                             }
                         ]
-                    },
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "flags": {
-                                "is_sneaking": true
-                            }
-                        }
                     }
                 ],
                 "entity": {
                     "type": "minecraft:interaction",
-                    "nbt": "{Tags:[\"survival_rework_jj.interaction.water\"]}"
+                    "nbt": "{Tags:[\"survival_rework_jj.interaction.clear_water\"]}"
                 }
             }
         }
     },
     "rewards": {
-        "function": "survival_rework_jj:interaction/medicinal_powder/start"
+        "function": "survival_rework_jj:interaction/flask/clear_water"
     }
 }

@@ -23,6 +23,20 @@
                         }
                     },
                     {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:location_check",
+                                "predicate": {
+                                    "fluid": {
+                                        "fluids": "#minecraft:water"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
                         "condition": "minecraft:value_check",
                         "value": {
                             "type": "minecraft:score",
@@ -56,6 +70,20 @@
                                     "survival",
                                     "adventure"
                                 ]
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:location_check",
+                                "predicate": {
+                                    "fluid": {
+                                        "fluids": "#minecraft:water"
+                                    }
+                                }
                             }
                         }
                     },
@@ -97,6 +125,20 @@
                         }
                     },
                     {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:location_check",
+                                "predicate": {
+                                    "fluid": {
+                                        "fluids": "#minecraft:water"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
                         "condition": "minecraft:value_check",
                         "value": {
                             "type": "minecraft:score",
@@ -120,6 +162,6 @@
         ]
     ],
     "rewards": {
-        "function": "survival_rework_jj:effects/bone_break/legs/give"
+        "function": "survival_rework_jj:effect/bone_break/legs/give"
     }
 }

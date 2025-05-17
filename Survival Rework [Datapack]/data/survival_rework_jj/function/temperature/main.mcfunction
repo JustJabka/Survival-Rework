@@ -1,4 +1,4 @@
-# T = T_min + (T_max - T_min) * (1 + cos(2Pi(daytime - 9000) \ 24000) \ 2 )
+# T = T_min + (T_max - T_min) * (1 + cos(2Pi(daytime - 9000) / 24000) / 2 )
 function #survival_rework_jj:biome_temperature
 
 # Temperature peak

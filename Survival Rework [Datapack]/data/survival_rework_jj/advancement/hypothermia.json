@@ -43,6 +43,6 @@
 		}
 	},
 	"rewards": {
-		"function": "survival_rework_jj:effects/hypotermia/main"
+		"function": "survival_rework_jj:effect/hypotermia/main"
 	}
 }

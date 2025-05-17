@@ -18,10 +18,6 @@ execute store result score @s survival_rework_jj.max_health run attribute @s min
 execute store result score @s survival_rework_jj.percent_health run scoreboard players operation @s survival_rework_jj.current_health /= @s survival_rework_jj.max_health
 
 ### Thirst
-# raycast
-execute at @s if predicate {"condition":"minecraft:entity_properties","entity":"this","predicate":{type_specific:{type:"minecraft:player",input:{sneak:true}}}} if function survival_rework_jj:interaction/water/raycast/pre run function survival_rework_jj:interaction/water/raycast/start
-execute at @s if items entity @s weapon.* minecraft:poisonous_potato[minecraft:custom_data~{survival_rework_jj.flask:1b}] run function survival_rework_jj:interaction/cauldron/raycast/start
-
 # timer
 execute at @s[gamemode=!creative,gamemode=!spectator] run function survival_rework_jj:thirst/main
 execute if entity @s[gamemode=creative] run function survival_rework_jj:ui/hide
@@ -36,8 +32,12 @@ execute if score .thirst survival_rework_jj.config matches 1 run damage @s[score
 # reset scores
 scoreboard players set @s[scores={survival_rework_jj.jump=1..}] survival_rework_jj.jump 0
 
-### Effects
-execute if entity @s[gamemode=!creative,gamemode=!spectator] run function survival_rework_jj:effects/main
+### Other
+# Effects
+execute if entity @s[gamemode=!creative,gamemode=!spectator] run function survival_rework_jj:effect/main
+
+# Interactions
+execute at @s run function survival_rework_jj:interaction/main
 
 ### Low HP debuffs
 execute if score .low_hp_debuffs survival_rework_jj.config matches 1 if entity @s[scores={survival_rework_jj.percent_health=..30}] run function survival_rework_jj:healing_system/low_hp_debuff

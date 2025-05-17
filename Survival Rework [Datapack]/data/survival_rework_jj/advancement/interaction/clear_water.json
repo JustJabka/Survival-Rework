@@ -93,12 +93,12 @@
                 ],
                 "entity": {
                     "type": "minecraft:interaction",
-                    "nbt": "{Tags:[\"survival_rework_jj.interaction.water\"]}"
+                    "nbt": "{Tags:[\"survival_rework_jj.interaction.clear_water\"]}"
                 }
             }
         }
     },
     "rewards": {
-        "function": "survival_rework_jj:interaction/water/water"
+        "function": "survival_rework_jj:interaction/water/clear_water"
     }
 }

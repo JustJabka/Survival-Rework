@@ -64,7 +64,7 @@
                 ],
                 "entity": {
                     "type": "minecraft:interaction",
-                    "nbt": "{Tags:[\"survival_rework_jj.water_interaction\"]}"
+                    "nbt": "{Tags:[\"survival_rework_jj.interaction.water\"]}"
                 }
             }
         }

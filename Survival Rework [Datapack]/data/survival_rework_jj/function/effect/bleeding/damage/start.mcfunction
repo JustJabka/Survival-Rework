@@ -1,0 +1,2 @@
+execute if entity @s[tag=survival_rework_jj.effect.bleeding.1] if function survival_rework_jj:effect/bleeding/damage/check run return run function survival_rework_jj:effect/bleeding/damage/end
+execute if score @s[tag=survival_rework_jj.effect.bleeding.2] survival_rework_jj.effect.bleeding matches ..1 run function survival_rework_jj:effect/bleeding/damage/end

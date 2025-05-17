@@ -765,6 +765,6 @@
         ]
     ],
     "rewards": {
-        "function": "survival_rework_jj:effects/bleeding/adv"
+        "function": "survival_rework_jj:effect/bleeding/adv"
     }
 }
