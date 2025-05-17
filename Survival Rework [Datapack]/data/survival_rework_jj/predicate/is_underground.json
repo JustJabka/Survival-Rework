@@ -4,7 +4,7 @@
         "predicate": {
             "position": {
                 "y": {
-                    "max": 30
+                    "max": 0
                 }
             }
         }
