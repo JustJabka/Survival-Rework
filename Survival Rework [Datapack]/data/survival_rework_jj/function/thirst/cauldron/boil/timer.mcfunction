@@ -1,0 +1,2 @@
+execute if block ~ ~-1 ~ #survival_rework_jj:warm if block ~ ~ ~ minecraft:water_cauldron run return run function survival_rework_jj:thirst/cauldron/boil/main
+scoreboard players add @s[scores={survival_rework_jj.water_boil=..599}] survival_rework_jj.water_boil 1

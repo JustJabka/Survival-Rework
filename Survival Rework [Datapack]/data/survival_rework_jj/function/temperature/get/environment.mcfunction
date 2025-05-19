@@ -63,3 +63,4 @@ execute if biome ~ ~ ~ minecraft:wooded_badlands run return run data modify stor
 execute if biome ~ ~ ~ minecraft:windswept_savanna run return run data modify storage survival_rework_jj:main temperature set value [3300, 5500]
 execute if biome ~ ~ ~ minecraft:jungle run return run data modify storage survival_rework_jj:main temperature set value [1725, 2875]
 execute if biome ~ ~ ~ minecraft:desert run return run data modify storage survival_rework_jj:main temperature set value [3300, 5500]
+data modify storage survival_rework_jj:main temperature set value [1500, 2500]

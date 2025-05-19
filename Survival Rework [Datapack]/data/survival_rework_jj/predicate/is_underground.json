@@ -1,0 +1,24 @@
+[
+    {
+        "condition": "minecraft:location_check",
+        "predicate": {
+            "position": {
+                "y": {
+                    "max": 0
+                }
+            }
+        }
+    },
+    {
+        "condition": "minecraft:inverted",
+        "term": {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "biomes": [
+                    "minecraft:swamp",
+                    "minecraft:mangrove_swamp"
+                ]
+            }
+        }
+    }
+]

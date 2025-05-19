@@ -8,5 +8,7 @@
     "item.minecraft.stone_hoe": "Медная мотыга",
     "item.minecraft.stone_pickaxe": "Медная кирка",
     "item.minecraft.stone_shovel": "Медная лопата",
-    "item.minecraft.stone_sword": "Медный мечь"
+    "item.minecraft.stone_sword": "Медный мечь",
+
+    "item.minecraft.potion.effect.clear_water": "Чистая вода"
 }

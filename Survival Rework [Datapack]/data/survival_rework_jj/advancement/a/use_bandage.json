@@ -18,7 +18,17 @@
     "parent": "survival_rework_jj:a/bleeding",
     "criteria": {
         "requirement": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:poisonous_potato",
+                    "predicates": {
+                        "minecraft:custom_data": {
+                            "survival_rework_jj.bandage": true
+                        }
+                    }
+                }
+            }
         }
     }
 }

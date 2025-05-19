@@ -1,0 +1,4 @@
+execute unless items entity @s[advancements={survival_rework_jj:break_leg={easy=true}}] armor.* *[minecraft:enchantments~[{enchantments:"minecraft:feather_falling",levels:{min:1}}]] run scoreboard players add @s[scores={survival_rework_jj.effect.legs_break=0}] survival_rework_jj.effect.legs_break 1
+execute unless items entity @s[advancements={survival_rework_jj:break_leg={hard=true}}] armor.* *[minecraft:enchantments~[{enchantments:"minecraft:feather_falling",levels:{min:2}}]] run scoreboard players add @s[scores={survival_rework_jj.effect.legs_break=..1}] survival_rework_jj.effect.legs_break 1
+execute unless items entity @s[advancements={survival_rework_jj:break_leg={extreme=true}}] armor.* *[minecraft:enchantments~[{enchantments:"minecraft:feather_falling",levels:{min:3}}]] run scoreboard players add @s[scores={survival_rework_jj.effect.legs_break=..2}] survival_rework_jj.effect.legs_break 1
+advancement revoke @s only survival_rework_jj:break_leg

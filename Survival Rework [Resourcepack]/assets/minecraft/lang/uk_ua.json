@@ -8,5 +8,7 @@
     "item.minecraft.stone_hoe": "Мідна мотика",
     "item.minecraft.stone_pickaxe": "Мідне кайло",
     "item.minecraft.stone_shovel": "Мідна лопата",
-    "item.minecraft.stone_sword": "Мідний меч"
+    "item.minecraft.stone_sword": "Мідний меч",
+
+    "item.minecraft.potion.effect.clear_water": "Чиста вода"
 }

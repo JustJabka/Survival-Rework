@@ -1,20 +1,27 @@
+# Main
 scoreboard players set @s survival_rework_jj.jump 0
-scoreboard players set @s survival_rework_jj.fall_one_cm 0
 
-scoreboard players set @s survival_rework_jj.legs_break_lvl 0
-scoreboard players set @s survival_rework_jj.legs_break_heal_timer 0
+# Legs break
+tag @s remove survival_rework_jj.have_splint
+scoreboard players set @s survival_rework_jj.effect.legs_break 0
+scoreboard players set @s survival_rework_jj.legs_break.heal_timer 0
 
-scoreboard players set @s survival_rework_jj.bleeding_timer 0
-
-scoreboard players set @s survival_rework_jj.thirst 0
-scoreboard players set @s survival_rework_jj.thirst_timer 0
-scoreboard players set @s survival_rework_jj.effect.thirst 0
+# Thirst
 scoreboard players set @s survival_rework_jj.thirst 20
 scoreboard players set @s survival_rework_jj.thirst_timer 3600
 
+# Temperature
 scoreboard players set @s survival_rework_jj.temperature 3660
 
+# Effects
+scoreboard players set @s survival_rework_jj.effect.bleeding 0
+scoreboard players set @s survival_rework_jj.effect.thirst 0
+scoreboard players set @s survival_rework_jj.effect.freshness 0
+
+tag @s remove survival_rework_jj.effect.bleeding
+tag @s remove survival_rework_jj.effect.bleeding.1
+tag @s remove survival_rework_jj.effect.bleeding.2
 tag @s remove survival_rework_jj.effect.thirst
 tag @s remove survival_rework_jj.effect.freshness
-tag @s remove survival_rework_jj.bleeding
+
 effect clear @s minecraft:blindness

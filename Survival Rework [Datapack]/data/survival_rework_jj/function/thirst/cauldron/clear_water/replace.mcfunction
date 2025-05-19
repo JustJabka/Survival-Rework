@@ -1,0 +1,2 @@
+execute if items entity @s weapon.mainhand minecraft:potion[minecraft:potion_contents={potion:"minecraft:water"}] run return run loot replace entity @s weapon.mainhand loot survival_rework_jj:items/clear_water
+execute if items entity @s weapon.offhand minecraft:potion[minecraft:potion_contents={potion:"minecraft:water"}] run loot replace entity @s weapon.offhand loot survival_rework_jj:items/clear_water
