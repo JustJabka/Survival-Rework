@@ -2,7 +2,7 @@
     "providers": [
         {
             "type": "bitmap",
-            "file": "justjabka:item/thirst/icon.png",
+            "file": "justjabka:font/thirst/icon.png",
             "ascent": 2,
             "height": 27,
             "chars": [
@@ -11,7 +11,7 @@
         },
         {
             "type": "bitmap",
-            "file": "justjabka:item/thirst/icon_half.png",
+            "file": "justjabka:font/thirst/icon_half.png",
             "ascent": 2,
             "height": 27,
             "chars": [
@@ -20,7 +20,7 @@
         },
         {
             "type": "bitmap",
-            "file": "justjabka:item/thirst/icon_off.png",
+            "file": "justjabka:font/thirst/icon_off.png",
             "ascent": 2,
             "height": 27,
             "chars": [

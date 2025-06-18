@@ -2,7 +2,7 @@
     "providers": [
         {
             "type": "bitmap",
-            "file": "justjabka:item/config/thirst.png",
+            "file": "justjabka:font/config/thirst.png",
             "ascent": 13,
             "height": 18,
             "chars": [
@@ -11,7 +11,7 @@
         },
         {
             "type": "bitmap",
-            "file": "justjabka:item/config/temperature.png",
+            "file": "justjabka:font/config/temperature.png",
             "ascent": 13,
             "height": 18,
             "chars": [
@@ -20,7 +20,7 @@
         },
         {
             "type": "bitmap",
-            "file": "justjabka:item/config/bleeding.png",
+            "file": "justjabka:font/config/bleeding.png",
             "ascent": 13,
             "height": 18,
             "chars": [
@@ -29,7 +29,7 @@
         },
         {
             "type": "bitmap",
-            "file": "justjabka:item/config/bone_breakage.png",
+            "file": "justjabka:font/config/bone_breakage.png",
             "ascent": 13,
             "height": 18,
             "chars": [
@@ -38,7 +38,7 @@
         },
         {
             "type": "bitmap",
-            "file": "justjabka:item/config/low_hp_debuffs.png",
+            "file": "justjabka:font/config/low_hp_debuffs.png",
             "ascent": 13,
             "height": 18,
             "chars": [

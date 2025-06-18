@@ -2,7 +2,7 @@
     "providers": [
         {
             "type": "bitmap",
-            "file": "justjabka:item/temperature/ultra_low.png",
+            "file": "justjabka:font/temperature/ultra_low.png",
             "ascent": -6,
             "height": 27,
             "chars": [
@@ -11,7 +11,7 @@
         },
         {
             "type": "bitmap",
-            "file": "justjabka:item/temperature/low.png",
+            "file": "justjabka:font/temperature/low.png",
             "ascent": -6,
             "height": 27,
             "chars": [
@@ -20,7 +20,7 @@
         },
         {
             "type": "bitmap",
-            "file": "justjabka:item/temperature/mid.png",
+            "file": "justjabka:font/temperature/mid.png",
             "ascent": -6,
             "height": 27,
             "chars": [
@@ -29,7 +29,7 @@
         },
         {
             "type": "bitmap",
-            "file": "justjabka:item/temperature/hight.png",
+            "file": "justjabka:font/temperature/hight.png",
             "ascent": -6,
             "height": 27,
             "chars": [
@@ -38,7 +38,7 @@
         },
         {
             "type": "bitmap",
-            "file": "justjabka:item/temperature/ultra_hight.png",
+            "file": "justjabka:font/temperature/ultra_hight.png",
             "ascent": -6,
             "height": 27,
             "chars": [
