@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "survival_rework:item/tea_overlay",
+        "layer1": "survival_rework:item/tea"
+    }
+}

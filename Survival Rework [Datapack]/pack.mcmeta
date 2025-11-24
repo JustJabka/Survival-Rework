@@ -1,6 +1,32 @@
 {
   "pack": {
-    "pack_format": 80,
-    "description": "Make survival harder by adding new mechanics and changing existing ones."
+    "description": "Make survival harder by adding new mechanics and changing existing ones.",
+    "pack_format": 93,
+    "max_format": 93,
+    "min_format": 93
+  },
+  "filter": {
+    "block": [
+      {
+        "namespace":"minecraft",
+        "path": "recipe/stone_axe"
+      },
+      {
+        "namespace":"minecraft",
+        "path": "recipe/stone_hoe"
+      },
+      {
+        "namespace":"minecraft",
+        "path": "recipe/stone_pickaxe"
+      },
+      {
+        "namespace":"minecraft",
+        "path": "recipe/stone_shovel"
+      },
+      {
+        "namespace":"minecraft",
+        "path": "recipe/stone_sword"
+      }
+    ]
   }
 }

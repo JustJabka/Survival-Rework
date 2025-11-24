@@ -1,2 +1,0 @@
-execute unless score @s survival_rework_jj.effect.bleeding matches 0 unless score @s survival_rework_jj.effect.bleeding matches 140 unless score @s survival_rework_jj.effect.bleeding matches 0 unless score @s survival_rework_jj.effect.bleeding matches 280 unless score @s survival_rework_jj.effect.bleeding matches 420 run return fail
-return 1

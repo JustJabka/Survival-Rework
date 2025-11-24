@@ -7,6 +7,7 @@
     "minecraft:deepslate_iron_ore",
     "minecraft:lapis_block",
     "minecraft:lapis_ore",
-    "minecraft:deepslate_lapis_ore"
+    "minecraft:deepslate_lapis_ore",
+    "minecraft:crafter"
   ]
 }

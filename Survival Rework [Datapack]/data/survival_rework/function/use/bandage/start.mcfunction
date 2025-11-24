@@ -1,0 +1,3 @@
+advancement revoke @s only survival_rework:use/bandage
+execute if items entity @s weapon.mainhand minecraft:poisonous_potato[minecraft:custom_data~{survival_rework.bandage:true}] run return run function survival_rework:use/bandage/end {hand:"mainhand"}
+execute if items entity @s weapon.offhand minecraft:poisonous_potato[minecraft:custom_data~{survival_rework.bandage:true}] run function survival_rework:use/bandage/end {hand:"offhand"}

@@ -1,0 +1,17 @@
+{
+    "function": "minecraft:set_custom_model_data",
+    "floats": {
+        "mode": "replace_all",
+        "values": [
+            {
+                "type": "minecraft:score",
+                "target": {
+                    "type": "minecraft:fixed",
+                    "name": "#prev"
+                },
+                "score": "main",
+                "scale": 0.01
+            }
+        ]
+    }
+}

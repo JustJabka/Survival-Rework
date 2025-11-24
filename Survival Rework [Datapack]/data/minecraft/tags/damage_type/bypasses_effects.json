@@ -1,8 +1,7 @@
 {
-    "replace": false,
     "values": [
-        "survival_rework_jj:thirst",
-        "survival_rework_jj:bleeding",
-        "survival_rework_jj:hyperthermia"
+        "survival_rework:thirst",
+        "survival_rework:bleeding",
+        "survival_rework:hyperthermia"
     ]
 }

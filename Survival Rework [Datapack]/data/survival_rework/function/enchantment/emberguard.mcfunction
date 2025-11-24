@@ -1,0 +1,4 @@
+execute if items entity @s armor.head *[minecraft:enchantments~[{enchantments:["survival_rework:emberguard"]}]] run scoreboard players remove #survival_rework.resistance main 15
+execute if items entity @s armor.chest *[minecraft:enchantments~[{enchantments:["survival_rework:emberguard"]}]] run scoreboard players remove #survival_rework.resistance main 15
+execute if items entity @s armor.legs *[minecraft:enchantments~[{enchantments:["survival_rework:emberguard"]}]] run scoreboard players remove #survival_rework.resistance main 15
+execute if items entity @s armor.feet *[minecraft:enchantments~[{enchantments:["survival_rework:emberguard"]}]] run scoreboard players remove #survival_rework.resistance main 15

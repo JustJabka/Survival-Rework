@@ -1,0 +1,2 @@
+execute if score .temperature survival_rework.config matches 1 as @a[gamemode=!creative,gamemode=!spectator] at @s run function survival_rework:temperature/main
+schedule function survival_rework:temperature/loop 1s

@@ -1,0 +1,2 @@
+execute if score @s survival_rework.temperature matches ..2800 unless score @s jabkacore.effect.freezing matches 1 run return run function jabkacore:api/effect/freezing/give
+execute if score @s survival_rework.temperature matches 2801.. run function jabkacore:api/effect/freezing/clear

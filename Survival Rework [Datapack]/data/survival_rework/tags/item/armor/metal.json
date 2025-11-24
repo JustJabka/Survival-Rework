@@ -1,0 +1,16 @@
+{
+    "values": [
+        "minecraft:iron_helmet",
+        "minecraft:iron_chestplate",
+        "minecraft:iron_leggings",
+        "minecraft:iron_boots",
+        "minecraft:golden_helmet",
+        "minecraft:golden_chestplate",
+        "minecraft:golden_leggings",
+        "minecraft:golden_boots",
+        "minecraft:copper_helmet",
+        "minecraft:copper_chestplate",
+        "minecraft:copper_leggings",
+        "minecraft:copper_boots"
+    ]
+}

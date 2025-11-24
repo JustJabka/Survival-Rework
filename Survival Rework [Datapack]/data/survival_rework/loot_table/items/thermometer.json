@@ -1,0 +1,35 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:poisonous_potato",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_model": "survival_rework:thermometer",
+                                "!minecraft:food": {},
+                                "!minecraft:consumable": {},
+                                "minecraft:item_name": {
+                                    "translate": "item.survival_rework.thermometer",
+                                    "fallback": "Thermometer"
+                                },
+                                "minecraft:custom_data": {
+                                    "survival_rework.thermometer": true
+                                },
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        0.45
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
