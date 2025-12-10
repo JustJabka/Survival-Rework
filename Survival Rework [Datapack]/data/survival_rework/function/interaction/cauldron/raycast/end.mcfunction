@@ -1,0 +1,2 @@
+summon minecraft:interaction ~ ~ ~ {Tags:["survival_rework.interaction.clear_water","survival_rework.interaction.cauldron","survival_rework.interaction"],width:0.1f,height:0.1f,response:true}
+scoreboard players set #distance main 0

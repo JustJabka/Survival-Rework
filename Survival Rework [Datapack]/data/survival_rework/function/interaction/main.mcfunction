@@ -1,0 +1,2 @@
+execute if predicate jabkacore:shared/is_sneaking if function survival_rework:interaction/water/raycast/pre run function survival_rework:interaction/water/raycast/start
+execute if items entity @s weapon.* minecraft:poisonous_potato[minecraft:custom_data~{survival_rework.flask:true},minecraft:damage~{damage:{min:1}}] run function survival_rework:interaction/cauldron/raycast/start

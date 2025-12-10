@@ -1,0 +1,2 @@
+execute if items entity @s weapon.mainhand minecraft:poisonous_potato[minecraft:custom_data~{"survival_rework.thermometer":true}] run return run function survival_rework:use/thermometer/end {hand:"mainhand",path:"SelectedItem"}
+execute if items entity @s weapon.offhand minecraft:poisonous_potato[minecraft:custom_data~{"survival_rework.thermometer":true}] run function survival_rework:use/thermometer/end {hand:"offhand",path:"equipment.offhand"}

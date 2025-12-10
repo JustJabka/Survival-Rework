@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:redstone"
+        },
+        "title": {
+            "translate": "advancements.survival_rework.bleeding.title",
+            "fallback": "Is that ketchup?"
+        },
+        "description": {
+            "translate": "advancements.survival_rework.bleeding.description",
+            "fallback": "Get the bleeding effect"
+        }
+    },
+    "parent": "survival_rework:a/root",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "survival_rework:bandage",
+            "survival_rework:medicinal_powder"
+        ]
+    }
+}

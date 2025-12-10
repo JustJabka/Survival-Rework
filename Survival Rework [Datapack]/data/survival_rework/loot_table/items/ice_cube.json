@@ -1,0 +1,37 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:poisonous_potato",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_model": "survival_rework:ice_cube",
+                                "minecraft:food": {
+                                    "nutrition": 0,
+                                    "saturation": 0,
+                                    "can_always_eat": true
+                                },
+                                "minecraft:consumable": {
+                                    "animation": "eat",
+                                    "consume_seconds": 0.6
+                                },
+                                "minecraft:item_name": {
+                                    "translate": "item.survival_rework.ice_cube",
+                                    "fallback": "Ice Cube"
+                                },
+                                "minecraft:custom_data": {
+                                    "survival_rework.ice_cube": true
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "values": [
+        "#survival_rework:temperature/warm",
+        "#survival_rework:temperature/hot",
+        "#survival_rework:temperature/extreme_high",
+        "#survival_rework:temperature/cool",
+        "#survival_rework:temperature/cold",
+        "#survival_rework:temperature/extreme_low",
+        "minecraft:furnace",
+        "minecraft:blast_furnace",
+        "minecraft:smoker",
+        "#minecraft:candle_cakes",
+        "#minecraft:candles"
+    ]
+}

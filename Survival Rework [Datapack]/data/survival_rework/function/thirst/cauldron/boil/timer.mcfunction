@@ -1,0 +1,3 @@
+execute if block ~ ~-1 ~ #survival_rework:temperature/hot if block ~ ~ ~ minecraft:water_cauldron run return run function survival_rework:thirst/cauldron/boil/main
+execute if block ~ ~-1 ~ #survival_rework:temperature/extreme_high if block ~ ~ ~ minecraft:water_cauldron run return run function survival_rework:thirst/cauldron/boil/main
+scoreboard players add @s[scores={survival_rework.water_boil=..599}] survival_rework.water_boil 1

@@ -1,0 +1,1 @@
+execute if score #survival_rework.env_temperature main matches ..-1 run scoreboard players set #survival_rework.env_temperature main 50

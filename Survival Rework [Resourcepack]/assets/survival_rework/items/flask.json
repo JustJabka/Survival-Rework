@@ -1,0 +1,14 @@
+{
+    "model": {
+        "type": "minecraft:condition",
+        "property": "minecraft:damaged",
+        "on_false": {
+            "type": "minecraft:model",
+            "model": "survival_rework:item/flask"
+        },
+        "on_true": {
+            "type": "minecraft:model",
+            "model": "survival_rework:item/empty_flask"
+        }
+    }
+}

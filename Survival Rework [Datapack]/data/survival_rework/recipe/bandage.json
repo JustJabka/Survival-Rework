@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        "#minecraft:wool",
+        "minecraft:string",
+        "minecraft:string",
+        "minecraft:string"
+    ],
+    "result": {
+        "id": "minecraft:poisonous_potato",
+        "count": 1,
+        "components": {
+            "minecraft:item_name": {
+                "translate": "item.survival_rework.bandage",
+                "fallback": "Bandage"
+            },
+            "minecraft:item_model": "survival_rework:bandage",
+            "minecraft:custom_data": {
+                "survival_rework.bandage": true
+            },
+            "minecraft:food": {
+                "nutrition": 0,
+                "saturation": 0,
+                "can_always_eat": true
+            },
+            "minecraft:use_effects": {
+                "can_sprint": true,
+                "speed_multiplier": 1
+            },
+            "minecraft:consumable": {
+                "consume_seconds": 2147483647
+            }
+        }
+    }
+}

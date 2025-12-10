@@ -1,0 +1,21 @@
+{
+    "values": [
+        "minecraft:drown",
+        "minecraft:dry_out",
+        "minecraft:freeze",
+        "minecraft:fireball",
+        "minecraft:in_fire",
+        "minecraft:on_fire",
+        "minecraft:campfire",
+        "minecraft:indirect_magic",
+        "minecraft:magic",
+        "minecraft:out_of_world",
+        "minecraft:outside_border",
+        "minecraft:starve",
+        "minecraft:wind_charge",
+        "minecraft:ender_pearl",
+        "survival_rework:thirst",
+        "survival_rework:bleeding",
+        "survival_rework:hyperthermia"
+    ]
+}

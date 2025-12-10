@@ -1,0 +1,2 @@
+execute if predicate survival_rework:is_underground run return run summon minecraft:interaction ~ ~ ~ {Tags:["survival_rework.interaction.clear_water","survival_rework.interaction"],width:0.05f,height:0.0f,response:true}
+summon minecraft:interaction ~ ~ ~ {Tags:["survival_rework.interaction.water","survival_rework.interaction"],width:0.05f,height:0.0f,response:true}

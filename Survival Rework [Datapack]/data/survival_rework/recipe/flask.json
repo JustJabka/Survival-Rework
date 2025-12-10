@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " LS",
+    "L L",
+    "LL "
+  ],
+  "key": {
+    "L": "minecraft:leather",
+    "S": "minecraft:string"
+  },
+  "result": {
+    "id": "minecraft:poisonous_potato",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": {
+        "translate": "item.survival_rework.flask",
+        "fallback": "Flask"
+      },
+      "minecraft:item_model": "survival_rework:flask",
+      "minecraft:max_stack_size": 1,
+      "minecraft:max_damage": 3,
+      "minecraft:damage": 3,
+      "custom_data": {
+        "survival_rework.flask": true
+      },
+      "!minecraft:food": {},
+      "!minecraft:consumable": {}
+    }
+  }
+}

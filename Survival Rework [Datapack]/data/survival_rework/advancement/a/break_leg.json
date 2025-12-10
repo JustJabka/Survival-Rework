@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:bone"
+        },
+        "title": {
+            "translate": "advancements.survival_rework.break_leg.title",
+            "fallback": "Cry about it >:)"
+        },
+        "description": {
+            "translate": "advancements.survival_rework.break_leg.description",
+            "fallback": "Break a leg"
+        }
+    },
+    "parent": "survival_rework:a/root",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "survival_rework:splint"
+        ]
+    }
+}

@@ -1,0 +1,3 @@
+tag @s add survival_rework.interaction.cauldron
+execute as @e[type=minecraft:interaction,tag=survival_rework.interaction,tag=survival_rework.interaction.clear_water,tag=survival_rework.interaction.cauldron] at @s if function survival_rework:interaction/cauldron/raycast/remove_water/check run function survival_rework:interaction/cauldron/raycast/remove_water/end
+tag @s remove survival_rework.interaction.cauldron

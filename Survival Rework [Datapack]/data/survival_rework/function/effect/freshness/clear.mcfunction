@@ -1,0 +1,1 @@
+tag @s remove survival_rework.effect.freshness

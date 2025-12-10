@@ -1,0 +1,58 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "survival_rework:font/config/thirst.png",
+            "ascent": 13,
+            "height": 18,
+            "chars": [
+                "\uE000"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "survival_rework:font/config/temperature.png",
+            "ascent": 13,
+            "height": 18,
+            "chars": [
+                "\uE001"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "survival_rework:font/config/bleeding.png",
+            "ascent": 13,
+            "height": 18,
+            "chars": [
+                "\uE002"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "survival_rework:font/config/bone_breakage.png",
+            "ascent": 13,
+            "height": 18,
+            "chars": [
+                "\uE003"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "survival_rework:font/config/low_hp_debuffs.png",
+            "ascent": 13,
+            "height": 18,
+            "chars": [
+                "\uE004"
+            ]
+        },
+        {
+            "type": "space",
+            "advances": {
+                "󐀁": 1,
+                "󐀐": 16,
+                "󐀨": 40,
+                "󐀴": 52
+            }
+        }
+    ]
+}

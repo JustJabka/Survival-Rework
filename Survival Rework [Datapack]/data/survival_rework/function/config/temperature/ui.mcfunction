@@ -1,0 +1,2 @@
+execute if score .temperature survival_rework.config matches 1 run return run data modify storage survival_rework:main actionbar.temperature set value ["","","","",""]
+execute if score .temperature survival_rework.config matches 0 run data modify storage survival_rework:main actionbar.temperature set value ["󐀉","󐀉","󐀉","󐀉","󐀉"]

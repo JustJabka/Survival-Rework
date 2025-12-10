@@ -362,7 +362,7 @@
 									"type": "minecraft:fixed",
 									"name": ".temperature"
 								},
-								"score": "survival_rework_jj.config"
+								"score": "survival_rework.config"
 							},
 							"range": 1
 						}
@@ -374,7 +374,7 @@
 					"functions": [
 						{
 							"function": "minecraft:enchant_randomly",
-							"options": "survival_rework_jj:frostguard",
+							"options": "survival_rework:frostguard",
 							"conditions": [
 								{
 									"condition": "minecraft:value_check",
@@ -384,7 +384,7 @@
 											"type": "minecraft:fixed",
 											"name": ".temperature"
 										},
-										"score": "survival_rework_jj.config"
+										"score": "survival_rework.config"
 									},
 									"range": 1
 								}

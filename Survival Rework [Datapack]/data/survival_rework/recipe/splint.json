@@ -1,0 +1,42 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "STS",
+        "SWS",
+        "STS"
+    ],
+    "key": {
+        "S": "minecraft:stick",
+        "W": "#minecraft:wool",
+        "T": "minecraft:string"
+    },
+    "result": {
+        "id": "minecraft:poisonous_potato",
+        "count": 1,
+        "components": {
+            "minecraft:item_name": {
+                "translate": "item.survival_rework.splint",
+                "fallback": "Splint"
+            },
+            "minecraft:item_model": "survival_rework:splint",
+            "minecraft:custom_data": {
+                "survival_rework.splint": true
+            },
+            "minecraft:food": {
+                "nutrition": 0,
+                "saturation": 0,
+                "can_always_eat": true
+            },
+            "minecraft:consumable": {
+                "consume_seconds": 2147483647
+            },
+            "minecraft:use_effects": {
+                "can_sprint": true,
+                "speed_multiplier": 1
+            },
+            "minecraft:use_cooldown": {
+                "seconds": 3
+            }
+        }
+    }
+}
