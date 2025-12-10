@@ -30,7 +30,7 @@ def extract_temperature_data(directory):
 def generate_file(biome_temperatures, output_file):
     with open(output_file, 'w', encoding='utf-8') as f:
         for biome, temp_range in biome_temperatures.items():
-            f.write(f"execute if biome ~ ~ ~ {biome} run return run data modify storage survival_rework_jj:main temperature set value {temp_range}\n")
+            f.write(f"execute if biome ~ ~ ~ {biome} run return run data modify storage survival_rework:main temperature set value {temp_range}\n")
 
 def main():
     directory = os.getcwd()
