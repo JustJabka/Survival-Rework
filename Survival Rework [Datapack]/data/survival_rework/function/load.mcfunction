@@ -23,7 +23,7 @@ scoreboard objectives add survival_rework.legs_break.heal_timer dummy
 scoreboard objectives add survival_rework.thirst dummy
 scoreboard objectives add survival_rework.thirst_timer dummy
 scoreboard objectives add survival_rework.water_boil dummy
-execute unless score .thirst survival_rework.config matches 0..1 run data modify storage survival_rework:main actionbar.thirst set value ["󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿","󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿","󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿","󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿","󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿","󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿","󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿","󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿","󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿","󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿","󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿","󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿","󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿","󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿","󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿","󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿","󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿","󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿","󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿","󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿","󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿"]
+data modify storage survival_rework:main actionbar.thirst set value ["󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿","󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿","󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿","󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿","󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿","󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿","󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿","󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿","󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿","󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿","󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿","󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿","󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿","󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿","󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿","󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿","󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿","󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿","󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿","󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿","󐁮󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿"]
 
 ### EFFECTS
 scoreboard objectives add survival_rework.effect.bleeding dummy
@@ -33,7 +33,7 @@ scoreboard objectives add survival_rework.effect.legs_break dummy
 
 ### TEMPERATURE
 scoreboard objectives add survival_rework.temperature dummy
-execute unless score .temperature survival_rework.config matches 0..1 run data modify storage survival_rework:main actionbar.temperature set value ["","","","",""]
+data modify storage survival_rework:main actionbar.temperature set value ["","","","",""]
 schedule function survival_rework:temperature/loop 1s
 
 # Reset config
@@ -42,6 +42,13 @@ execute unless score .temperature survival_rework.config matches 0..1 run scoreb
 execute unless score .bleeding survival_rework.config matches 0..1 run scoreboard players set .bleeding survival_rework.config 1
 execute unless score .bone_breakage survival_rework.config matches 0..1 run scoreboard players set .bone_breakage survival_rework.config 1
 execute unless score .low_hp_debuffs survival_rework.config matches 0..1 run scoreboard players set .low_hp_debuffs survival_rework.config 1
+
+# Patchnote:
+# Updated to 26.1.2
+# Moved from jabkacore to justlib
+# Fixed bleeding
+# Fixed legs break
+
 
 # TODO/Ideas for next update:
 # Add advancements for thirst

@@ -1,5 +1,5 @@
 scoreboard players set #survival_rework.resistance main 30
-execute if predicate jabkacore:shared/fluid/water run scoreboard players set #survival_rework.resistance main 50
+execute if predicate justlib:shared/fluid/water run scoreboard players set #survival_rework.resistance main 50
 
 # Convulsions
 execute if score @s survival_rework.temperature matches ..3450 run scoreboard players remove #survival_rework.resistance main 5

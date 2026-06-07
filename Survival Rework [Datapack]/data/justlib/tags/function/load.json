@@ -1,0 +1,9 @@
+{
+    "values": [
+        "justlib:internal/effect/load",
+        "justlib:internal/health/load",
+        "justlib:internal/math/load",
+        "justlib:internal/shared/load",
+        "survival_rework:load"
+    ]
+}

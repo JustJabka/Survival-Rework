@@ -1,0 +1,9 @@
+{
+    "values": [
+        "#minecraft:replaceable",
+        "#minecraft:signs",
+        "#minecraft:banners",
+        "#minecraft:buttons",
+        "#minecraft:flowers"
+    ]
+}

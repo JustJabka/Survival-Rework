@@ -7,7 +7,7 @@ attribute @s[scores={survival_rework.effect.legs_break=..2}] minecraft:movement_
 attribute @s[scores={survival_rework.effect.legs_break=..1}] minecraft:jump_strength modifier remove survival_rework:no_jump
 
 ### Bleeding
-function jabkacore:api/health/get/percent
+function justlib:api/health/get/percent
 
 ### Thirst
 # timer
@@ -29,4 +29,4 @@ execute if entity @s[gamemode=!creative,gamemode=!spectator] run function surviv
 function survival_rework:interaction/main
 
 ### Low HP debuffs
-execute if score .low_hp_debuffs survival_rework.config matches 1 if entity @s[scores={jabkacore.health.percent=..30}] run function survival_rework:healing_system/low_hp_debuff
+execute if score .low_hp_debuffs survival_rework.config matches 1 if entity @s[scores={justlib.health.percent=..30}] run function survival_rework:healing_system/low_hp_debuff

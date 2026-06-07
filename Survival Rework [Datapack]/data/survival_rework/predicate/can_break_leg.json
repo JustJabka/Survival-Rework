@@ -1,0 +1,30 @@
+{
+    "condition": "all_of",
+    "terms": [
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "gamemode": [
+                        "survival",
+                        "adventure"
+                    ]
+                }
+            }
+        },
+        {
+            "condition": "minecraft:value_check",
+            "value": {
+                "type": "minecraft:score",
+                "target": {
+                    "type": "minecraft:fixed",
+                    "name": ".bone_breakage"
+                },
+                "score": "survival_rework.config"
+            },
+            "range": 1
+        }
+    ]
+}

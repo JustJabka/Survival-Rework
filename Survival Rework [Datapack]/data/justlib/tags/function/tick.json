@@ -1,0 +1,6 @@
+{
+    "values": [
+        "justlib:internal/effect/tick",
+        "survival_rework:tick"
+    ]
+}

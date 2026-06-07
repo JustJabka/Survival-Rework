@@ -3,7 +3,7 @@ function #survival_rework:biome_temperature
 
 function survival_rework:temperature/calc/peak_temperature
 function survival_rework:temperature/calc/env_temperature
-execute if predicate jabkacore:shared/fluid/water run function survival_rework:temperature/calc/env_water
+execute if predicate justlib:shared/fluid/water run function survival_rework:temperature/calc/env_water
 function survival_rework:temperature/calc/blocks
 function survival_rework:temperature/calc/resistance
 

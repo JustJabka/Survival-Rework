@@ -1,6 +1,0 @@
-{
-    "values": [
-        "jabkacore:internal/shared/resurrection/tick_player",
-        "survival_rework:tick_player"
-    ]
-}
