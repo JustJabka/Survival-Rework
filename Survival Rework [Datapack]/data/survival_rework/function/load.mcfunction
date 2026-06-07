@@ -43,13 +43,6 @@ execute unless score .bleeding survival_rework.config matches 0..1 run scoreboar
 execute unless score .bone_breakage survival_rework.config matches 0..1 run scoreboard players set .bone_breakage survival_rework.config 1
 execute unless score .low_hp_debuffs survival_rework.config matches 0..1 run scoreboard players set .low_hp_debuffs survival_rework.config 1
 
-# Patchnote:
-# Updated to 26.1.2
-# Moved from jabkacore to justlib
-# Fixed bleeding
-# Fixed legs break
-
-
 # TODO/Ideas for next update:
 # Add advancements for thirst
 # Add iron flask (maybe thermos if I will add drinks and/or alco)
